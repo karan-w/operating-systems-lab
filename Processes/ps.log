@@ -1,0 +1,1722 @@
+17:35:11.248969 execve("/bin/ps", ["ps"], [/* 57 vars */]) = 0
+17:35:11.249236 brk(NULL)               = 0x9ae000
+17:35:11.249272 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.249303 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+17:35:11.249329 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.249357 fstat(3, {st_mode=S_IFREG|0644, st_size=88547, ...}) = 0
+17:35:11.249384 mmap(NULL, 88547, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6344211000
+17:35:11.249407 close(3)                = 0
+17:35:11.249430 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.249456 open("/lib/x86_64-linux-gnu/libprocps.so.4", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.249482 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pD\0\0\0\0\0\0"..., 832) = 832
+17:35:11.249506 fstat(3, {st_mode=S_IFREG|0644, st_size=76744, ...}) = 0
+17:35:11.249530 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344210000
+17:35:11.249555 mmap(NULL, 2253888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6343ddb000
+17:35:11.249578 mprotect(0x7f6343dec000, 2097152, PROT_NONE) = 0
+17:35:11.249600 mmap(0x7f6343fec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f6343fec000
+17:35:11.249629 mmap(0x7f6343fee000, 78912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6343fee000
+17:35:11.249657 close(3)                = 0
+17:35:11.249684 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.249711 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.249737 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+17:35:11.249761 fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+17:35:11.249785 mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6343bd7000
+17:35:11.249809 mprotect(0x7f6343bda000, 2093056, PROT_NONE) = 0
+17:35:11.249835 mmap(0x7f6343dd9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f6343dd9000
+17:35:11.249867 close(3)                = 0
+17:35:11.249890 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.249914 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.249940 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+17:35:11.249963 fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+17:35:11.249987 mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f634380d000
+17:35:11.250009 mprotect(0x7f63439cd000, 2097152, PROT_NONE) = 0
+17:35:11.250034 mmap(0x7f6343bcd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f6343bcd000
+17:35:11.250061 mmap(0x7f6343bd3000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6343bd3000
+17:35:11.250089 close(3)                = 0
+17:35:11.250116 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.250141 open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.250168 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17:35:11.250191 fstat(3, {st_mode=S_IFREG|0644, st_size=536520, ...}) = 0
+17:35:11.250215 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f634420f000
+17:35:11.250240 mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f634418a000
+17:35:11.250263 mmap(0x7f634420a000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7f000) = 0x7f634420a000
+17:35:11.250295 mmap(0x7f634420e000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f634420e000
+17:35:11.250324 close(3)                = 0
+17:35:11.250353 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.250378 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.250403 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0"..., 832) = 832
+17:35:11.250431 fstat(3, {st_mode=S_IFREG|0644, st_size=130224, ...}) = 0
+17:35:11.250455 mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f63435eb000
+17:35:11.250480 mprotect(0x7f634360a000, 2093056, PROT_NONE) = 0
+17:35:11.250504 mmap(0x7f6343809000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7f6343809000
+17:35:11.250534 mmap(0x7f634380b000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f634380b000
+17:35:11.250562 close(3)                = 0
+17:35:11.250588 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.250613 open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.250640 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+17:35:11.250663 fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+17:35:11.250687 mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f63433e3000
+17:35:11.250711 mprotect(0x7f63433ea000, 2093056, PROT_NONE) = 0
+17:35:11.250737 mmap(0x7f63435e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f63435e9000
+17:35:11.250770 close(3)                = 0
+17:35:11.250793 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.250818 open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.250844 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0"..., 832) = 832
+17:35:11.250867 fstat(3, {st_mode=S_IFREG|0644, st_size=137400, ...}) = 0
+17:35:11.250890 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344189000
+17:35:11.250916 mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f63431c1000
+17:35:11.250940 mprotect(0x7f63431e2000, 2093056, PROT_NONE) = 0
+17:35:11.250966 mmap(0x7f63433e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f63433e1000
+17:35:11.250998 close(3)                = 0
+17:35:11.251023 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.251048 open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.251074 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0"..., 832) = 832
+17:35:11.251098 fstat(3, {st_mode=S_IFREG|0644, st_size=919168, ...}) = 0
+17:35:11.251121 mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6342ee0000
+17:35:11.251145 mprotect(0x7f6342fb7000, 2097152, PROT_NONE) = 0
+17:35:11.251172 mmap(0x7f63431b7000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd7000) = 0x7f63431b7000
+17:35:11.251200 mmap(0x7f63431c0000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f63431c0000
+17:35:11.251229 close(3)                = 0
+17:35:11.251258 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.251282 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.251308 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+17:35:11.251332 fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+17:35:11.251360 mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6342cc3000
+17:35:11.251384 mprotect(0x7f6342cdb000, 2093056, PROT_NONE) = 0
+17:35:11.251410 mmap(0x7f6342eda000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f6342eda000
+17:35:11.251439 mmap(0x7f6342edc000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6342edc000
+17:35:11.251467 close(3)                = 0
+17:35:11.251494 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.251519 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.251545 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+17:35:11.251569 fstat(3, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+17:35:11.251595 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344188000
+17:35:11.251620 mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6342a53000
+17:35:11.251645 mprotect(0x7f6342ac1000, 2097152, PROT_NONE) = 0
+17:35:11.251672 mmap(0x7f6342cc1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000) = 0x7f6342cc1000
+17:35:11.251703 close(3)                = 0
+17:35:11.251731 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+17:35:11.251756 open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.251782 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0"..., 832) = 832
+17:35:11.251806 fstat(3, {st_mode=S_IFREG|0644, st_size=80496, ...}) = 0
+17:35:11.251830 mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f634283f000
+17:35:11.251854 mprotect(0x7f6342851000, 2097152, PROT_NONE) = 0
+17:35:11.251880 mmap(0x7f6342a51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f6342a51000
+17:35:11.251911 close(3)                = 0
+17:35:11.251956 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344187000
+17:35:11.251991 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344186000
+17:35:11.252015 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344184000
+17:35:11.252040 arch_prctl(ARCH_SET_FS, 0x7f6344184880) = 0
+17:35:11.252105 mprotect(0x7f6343bcd000, 16384, PROT_READ) = 0
+17:35:11.252132 mprotect(0x7f6342a51000, 4096, PROT_READ) = 0
+17:35:11.252178 mprotect(0x7f6342eda000, 4096, PROT_READ) = 0
+17:35:11.252218 mprotect(0x7f6342cc1000, 4096, PROT_READ) = 0
+17:35:11.252258 mprotect(0x7f63431b7000, 4096, PROT_READ) = 0
+17:35:11.252286 mprotect(0x7f6343dd9000, 4096, PROT_READ) = 0
+17:35:11.252310 mprotect(0x7f63433e1000, 4096, PROT_READ) = 0
+17:35:11.252336 mprotect(0x7f63435e9000, 4096, PROT_READ) = 0
+17:35:11.252365 mprotect(0x7f6343809000, 4096, PROT_READ) = 0
+17:35:11.252451 mprotect(0x7f634420a000, 12288, PROT_READ) = 0
+17:35:11.252483 mprotect(0x7f6343fec000, 4096, PROT_READ) = 0
+17:35:11.252509 mprotect(0x616000, 4096, PROT_READ) = 0
+17:35:11.252533 mprotect(0x7f6344227000, 4096, PROT_READ) = 0
+17:35:11.252555 munmap(0x7f6344211000, 88547) = 0
+17:35:11.252583 set_tid_address(0x7f6344184b50) = 6065
+17:35:11.252603 set_robust_list(0x7f6344184b60, 24) = 0
+17:35:11.252629 rt_sigaction(SIGRTMIN, {0x7f6342cc8b50, [], SA_RESTORER|SA_SIGINFO, 0x7f6342cd4390}, NULL, 8) = 0
+17:35:11.252653 rt_sigaction(SIGRT_1, {0x7f6342cc8be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f6342cd4390}, NULL, 8) = 0
+17:35:11.252677 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+17:35:11.252704 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+17:35:11.252772 brk(NULL)               = 0x9ae000
+17:35:11.252792 brk(0x9cf000)           = 0x9cf000
+17:35:11.252831 statfs("/sys/fs/selinux", 0x7ffd0bfe7f30) = -1 ENOENT (No such file or directory)
+17:35:11.252866 statfs("/selinux", 0x7ffd0bfe7f30) = -1 ENOENT (No such file or directory)
+17:35:11.252895 open("/proc/filesystems", O_RDONLY) = 3
+17:35:11.252929 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+17:35:11.252953 read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 396
+17:35:11.252992 read(3, "", 1024)       = 0
+17:35:11.253014 close(3)                = 0
+17:35:11.253042 uname({sysname="Linux", nodename="uselab171", ...}) = 0
+17:35:11.253075 open("/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.253108 read(3, "0-1\n", 8192)  = 4
+17:35:11.253135 close(3)                = 0
+17:35:11.253167 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+17:35:11.253193 fstat(3, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+17:35:11.253216 mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6342567000
+17:35:11.253245 close(3)                = 0
+17:35:11.253299 rt_sigaction(SIGSYS, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253326 rt_sigaction(SIGPWR, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253349 rt_sigaction(SIGIO, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253372 rt_sigaction(SIGVTALRM, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253395 rt_sigaction(SIGXFSZ, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253417 rt_sigaction(SIGXCPU, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253440 rt_sigaction(SIGURG, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253463 rt_sigaction(SIGTTIN, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253485 rt_sigaction(SIGCHLD, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253508 rt_sigaction(SIGSTKFLT, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253531 rt_sigaction(SIGTERM, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253553 rt_sigaction(SIGALRM, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253576 rt_sigaction(SIGPIPE, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253599 rt_sigaction(SIGUSR2, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253621 rt_sigaction(SIGSEGV, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253644 rt_sigaction(SIGUSR1, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253667 rt_sigaction(SIGFPE, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253689 rt_sigaction(SIGBUS, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253713 rt_sigaction(SIGABRT, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253735 rt_sigaction(SIGTRAP, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253758 rt_sigaction(SIGILL, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253781 rt_sigaction(SIGHUP, {0x403220, ~[RTMIN RT_1], SA_RESTORER, 0x7f63438424b0}, NULL, 8) = 0
+17:35:11.253810 open("/proc/self/stat", O_RDONLY) = 3
+17:35:11.253844 read(3, "6065 (ps) R 6063 6063 2974 34817"..., 1024) = 307
+17:35:11.253872 close(3)                = 0
+17:35:11.253902 ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+17:35:11.253927 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+17:35:11.253961 geteuid()               = 1270
+17:35:11.253982 open("/proc/uptime", O_RDONLY) = 3
+17:35:11.254011 lseek(3, 0, SEEK_SET)   = 0
+17:35:11.254032 read(3, "6806.24 13011.20\n", 8191) = 17
+17:35:11.254070 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 4
+17:35:11.254098 fstat(4, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+17:35:11.254124 read(4, "# Locale name alias data base.\n#"..., 4096) = 2995
+17:35:11.254162 read(4, "", 4096)       = 0
+17:35:11.254183 close(4)                = 0
+17:35:11.254214 open("/usr/share/locale/en_IN/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17:35:11.254240 open("/usr/share/locale/en/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17:35:11.254266 open("/usr/share/locale-langpack/en_IN/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17:35:11.254291 open("/usr/share/locale-langpack/en/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+17:35:11.254329 open("/proc/sys/kernel/pid_max", O_RDONLY) = 4
+17:35:11.254357 read(4, "32768\n", 24)  = 6
+17:35:11.254382 close(4)                = 0
+17:35:11.254404 mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344162000
+17:35:11.254430 mprotect(0x7f6344183000, 4096, PROT_NONE) = 0
+17:35:11.254454 open("/proc/meminfo", O_RDONLY) = 4
+17:35:11.254481 lseek(4, 0, SEEK_SET)   = 0
+17:35:11.254502 read(4, "MemTotal:        8008240 kB\nMemF"..., 8191) = 1307
+17:35:11.254554 stat("/proc/self/task", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.254586 open("/proc", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+17:35:11.254611 fstat(5, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.254638 mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344141000
+17:35:11.254662 mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6344120000
+17:35:11.254688 getdents(5, /* 276 entries */, 32768) = 7000
+17:35:11.255008 stat("/proc/1", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255037 open("/proc/1/stat", O_RDONLY) = 6
+17:35:11.255063 read(6, "1 (systemd) S 0 1 1 0 -1 4194560"..., 1024) = 187
+17:35:11.255091 close(6)                = 0
+17:35:11.255117 open("/proc/1/status", O_RDONLY) = 6
+17:35:11.255143 read(6, "Name:\tsystemd\nUmask:\t0000\nState:"..., 1024) = 957
+17:35:11.255182 close(6)                = 0
+17:35:11.255209 stat("/proc/2", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255237 open("/proc/2/stat", O_RDONLY) = 6
+17:35:11.255262 read(6, "2 (kthreadd) S 0 0 0 0 -1 212998"..., 1024) = 150
+17:35:11.255288 close(6)                = 0
+17:35:11.255313 open("/proc/2/status", O_RDONLY) = 6
+17:35:11.255338 read(6, "Name:\tkthreadd\nUmask:\t0000\nState"..., 1024) = 613
+17:35:11.255372 close(6)                = 0
+17:35:11.255395 stat("/proc/3", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255422 open("/proc/3/stat", O_RDONLY) = 6
+17:35:11.255447 read(6, "3 (ksoftirqd/0) S 2 0 0 0 -1 692"..., 1024) = 155
+17:35:11.255473 close(6)                = 0
+17:35:11.255498 open("/proc/3/status", O_RDONLY) = 6
+17:35:11.255523 read(6, "Name:\tksoftirqd/0\nUmask:\t0000\nSt"..., 1024) = 614
+17:35:11.255556 close(6)                = 0
+17:35:11.255579 stat("/proc/5", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255606 open("/proc/5/stat", O_RDONLY) = 6
+17:35:11.255631 read(6, "5 (kworker/0:0H) S 2 0 0 0 -1 69"..., 1024) = 157
+17:35:11.255657 close(6)                = 0
+17:35:11.255682 open("/proc/5/status", O_RDONLY) = 6
+17:35:11.255707 read(6, "Name:\tkworker/0:0H\nUmask:\t0000\nS"..., 1024) = 613
+17:35:11.255740 close(6)                = 0
+17:35:11.255763 stat("/proc/7", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255790 open("/proc/7/stat", O_RDONLY) = 6
+17:35:11.255815 read(6, "7 (rcu_sched) S 2 0 0 0 -1 21299"..., 1024) = 153
+17:35:11.255841 close(6)                = 0
+17:35:11.255866 open("/proc/7/status", O_RDONLY) = 6
+17:35:11.255891 read(6, "Name:\trcu_sched\nUmask:\t0000\nStat"..., 1024) = 616
+17:35:11.255938 close(6)                = 0
+17:35:11.255962 stat("/proc/8", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.255989 open("/proc/8/stat", O_RDONLY) = 6
+17:35:11.256015 read(6, "8 (rcu_bh) S 2 0 0 0 -1 2129984 "..., 1024) = 149
+17:35:11.256041 close(6)                = 0
+17:35:11.256066 open("/proc/8/status", O_RDONLY) = 6
+17:35:11.256092 read(6, "Name:\trcu_bh\nUmask:\t0000\nState:\t"..., 1024) = 609
+17:35:11.256125 close(6)                = 0
+17:35:11.256148 stat("/proc/9", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.256175 open("/proc/9/stat", O_RDONLY) = 6
+17:35:11.256200 read(6, "9 (migration/0) S 2 0 0 0 -1 692"..., 1024) = 158
+17:35:11.256226 close(6)                = 0
+17:35:11.256251 open("/proc/9/status", O_RDONLY) = 6
+17:35:11.256276 read(6, "Name:\tmigration/0\nUmask:\t0000\nSt"..., 1024) = 614
+17:35:11.256310 close(6)                = 0
+17:35:11.256333 stat("/proc/10", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.256360 open("/proc/10/stat", O_RDONLY) = 6
+17:35:11.256385 read(6, "10 (lru-add-drain) S 2 0 0 0 -1 "..., 1024) = 159
+17:35:11.256411 close(6)                = 0
+17:35:11.256436 open("/proc/10/status", O_RDONLY) = 6
+17:35:11.256461 read(6, "Name:\tlru-add-drain\nUmask:\t0000\n"..., 1024) = 620
+17:35:11.256494 close(6)                = 0
+17:35:11.256517 stat("/proc/11", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.256544 open("/proc/11/stat", O_RDONLY) = 6
+17:35:11.256569 read(6, "11 (watchdog/0) S 2 0 0 0 -1 692"..., 1024) = 158
+17:35:11.256598 close(6)                = 0
+17:35:11.256623 open("/proc/11/status", O_RDONLY) = 6
+17:35:11.256649 read(6, "Name:\twatchdog/0\nUmask:\t0000\nSta"..., 1024) = 618
+17:35:11.256682 close(6)                = 0
+17:35:11.256705 stat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.256732 open("/proc/12/stat", O_RDONLY) = 6
+17:35:11.256757 read(6, "12 (cpuhp/0) S 2 0 0 0 -1 692388"..., 1024) = 152
+17:35:11.256783 close(6)                = 0
+17:35:11.256808 open("/proc/12/status", O_RDONLY) = 6
+17:35:11.256833 read(6, "Name:\tcpuhp/0\nUmask:\t0000\nState:"..., 1024) = 612
+17:35:11.256866 close(6)                = 0
+17:35:11.256889 stat("/proc/13", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.256916 open("/proc/13/stat", O_RDONLY) = 6
+17:35:11.256941 read(6, "13 (cpuhp/1) S 2 0 0 0 -1 692388"..., 1024) = 152
+17:35:11.256967 close(6)                = 0
+17:35:11.256992 open("/proc/13/status", O_RDONLY) = 6
+17:35:11.257016 read(6, "Name:\tcpuhp/1\nUmask:\t0000\nState:"..., 1024) = 612
+17:35:11.257050 close(6)                = 0
+17:35:11.257072 stat("/proc/14", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.257099 open("/proc/14/stat", O_RDONLY) = 6
+17:35:11.257125 read(6, "14 (watchdog/1) S 2 0 0 0 -1 692"..., 1024) = 158
+17:35:11.257151 close(6)                = 0
+17:35:11.257176 open("/proc/14/status", O_RDONLY) = 6
+17:35:11.258366 read(6, "Name:\twatchdog/1\nUmask:\t0000\nSta"..., 1024) = 618
+17:35:11.258416 close(6)                = 0
+17:35:11.258443 stat("/proc/15", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.258473 open("/proc/15/stat", O_RDONLY) = 6
+17:35:11.258500 read(6, "15 (migration/1) S 2 0 0 0 -1 69"..., 1024) = 160
+17:35:11.258527 close(6)                = 0
+17:35:11.258554 open("/proc/15/status", O_RDONLY) = 6
+17:35:11.258580 read(6, "Name:\tmigration/1\nUmask:\t0000\nSt"..., 1024) = 618
+17:35:11.258614 close(6)                = 0
+17:35:11.258637 stat("/proc/16", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.258665 open("/proc/16/stat", O_RDONLY) = 6
+17:35:11.258691 read(6, "16 (ksoftirqd/1) S 2 0 0 0 -1 69"..., 1024) = 156
+17:35:11.258717 close(6)                = 0
+17:35:11.258743 open("/proc/16/status", O_RDONLY) = 6
+17:35:11.258768 read(6, "Name:\tksoftirqd/1\nUmask:\t0000\nSt"..., 1024) = 619
+17:35:11.258802 close(6)                = 0
+17:35:11.258825 stat("/proc/18", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.258852 open("/proc/18/stat", O_RDONLY) = 6
+17:35:11.258878 read(6, "18 (kworker/1:0H) S 2 0 0 0 -1 6"..., 1024) = 158
+17:35:11.258904 close(6)                = 0
+17:35:11.258929 open("/proc/18/status", O_RDONLY) = 6
+17:35:11.258954 read(6, "Name:\tkworker/1:0H\nUmask:\t0000\nS"..., 1024) = 618
+17:35:11.258988 close(6)                = 0
+17:35:11.259011 stat("/proc/19", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.259039 open("/proc/19/stat", O_RDONLY) = 6
+17:35:11.259064 read(6, "19 (kdevtmpfs) S 2 0 0 0 -1 2130"..., 1024) = 153
+17:35:11.259090 close(6)                = 0
+17:35:11.259115 open("/proc/19/status", O_RDONLY) = 6
+17:35:11.259140 read(6, "Name:\tkdevtmpfs\nUmask:\t0022\nStat"..., 1024) = 618
+17:35:11.259174 close(6)                = 0
+17:35:11.259197 stat("/proc/20", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.259224 open("/proc/20/stat", O_RDONLY) = 6
+17:35:11.259249 read(6, "20 (netns) S 2 0 0 0 -1 69238880"..., 1024) = 151
+17:35:11.259275 close(6)                = 0
+17:35:11.259301 open("/proc/20/status", O_RDONLY) = 6
+17:35:11.259326 read(6, "Name:\tnetns\nUmask:\t0000\nState:\tS"..., 1024) = 612
+17:35:11.259359 close(6)                = 0
+17:35:11.259382 stat("/proc/21", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.259410 open("/proc/21/stat", O_RDONLY) = 6
+17:35:11.259445 read(6, "21 (khungtaskd) S 2 0 0 0 -1 212"..., 1024) = 154
+17:35:11.259478 close(6)                = 0
+17:35:11.259507 open("/proc/21/status", O_RDONLY) = 6
+17:35:11.259536 read(6, "Name:\tkhungtaskd\nUmask:\t0000\nSta"..., 1024) = 618
+17:35:11.259573 close(6)                = 0
+17:35:11.259600 stat("/proc/22", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.259636 open("/proc/22/stat", O_RDONLY) = 6
+17:35:11.259664 read(6, "22 (oom_reaper) S 2 0 0 0 -1 209"..., 1024) = 154
+17:35:11.259693 close(6)                = 0
+17:35:11.259722 open("/proc/22/status", O_RDONLY) = 6
+17:35:11.259750 read(6, "Name:\toom_reaper\nUmask:\t0000\nSta"..., 1024) = 617
+17:35:11.259787 close(6)                = 0
+17:35:11.259813 stat("/proc/23", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.259844 open("/proc/23/stat", O_RDONLY) = 6
+17:35:11.259871 read(6, "23 (writeback) S 2 0 0 0 -1 6923"..., 1024) = 155
+17:35:11.259900 close(6)                = 0
+17:35:11.259950 open("/proc/23/status", O_RDONLY) = 6
+17:35:11.259978 read(6, "Name:\twriteback\nUmask:\t0000\nStat"..., 1024) = 616
+17:35:11.260015 close(6)                = 0
+17:35:11.260041 stat("/proc/24", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.260073 open("/proc/24/stat", O_RDONLY) = 6
+17:35:11.260103 read(6, "24 (kcompactd0) S 2 0 0 0 -1 209"..., 1024) = 154
+17:35:11.260134 close(6)                = 0
+17:35:11.260165 open("/proc/24/status", O_RDONLY) = 6
+17:35:11.260193 read(6, "Name:\tkcompactd0\nUmask:\t0000\nSta"..., 1024) = 617
+17:35:11.260230 close(6)                = 0
+17:35:11.260256 stat("/proc/25", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.260286 open("/proc/25/stat", O_RDONLY) = 6
+17:35:11.260314 read(6, "25 (ksmd) S 2 0 0 0 -1 2097216 0"..., 1024) = 148
+17:35:11.260342 close(6)                = 0
+17:35:11.260371 open("/proc/25/status", O_RDONLY) = 6
+17:35:11.260398 read(6, "Name:\tksmd\nUmask:\t0000\nState:\tS "..., 1024) = 611
+17:35:11.260436 close(6)                = 0
+17:35:11.260462 stat("/proc/26", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.260492 open("/proc/26/stat", O_RDONLY) = 6
+17:35:11.260521 read(6, "26 (khugepaged) S 2 0 0 0 -1 209"..., 1024) = 156
+17:35:11.260551 close(6)                = 0
+17:35:11.260580 open("/proc/26/status", O_RDONLY) = 6
+17:35:11.260611 read(6, "Name:\tkhugepaged\nUmask:\t0000\nSta"..., 1024) = 619
+17:35:11.260649 close(6)                = 0
+17:35:11.260675 stat("/proc/27", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.260705 open("/proc/27/stat", O_RDONLY) = 6
+17:35:11.260732 read(6, "27 (crypto) S 2 0 0 0 -1 6923888"..., 1024) = 152
+17:35:11.260760 close(6)                = 0
+17:35:11.260786 open("/proc/27/status", O_RDONLY) = 6
+17:35:11.260812 read(6, "Name:\tcrypto\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.260847 close(6)                = 0
+17:35:11.260871 stat("/proc/28", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.260900 open("/proc/28/stat", O_RDONLY) = 6
+17:35:11.260926 read(6, "28 (kintegrityd) S 2 0 0 0 -1 69"..., 1024) = 157
+17:35:11.260953 close(6)                = 0
+17:35:11.260979 open("/proc/28/status", O_RDONLY) = 6
+17:35:11.261005 read(6, "Name:\tkintegrityd\nUmask:\t0000\nSt"..., 1024) = 618
+17:35:11.261039 close(6)                = 0
+17:35:11.261062 stat("/proc/29", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.261090 open("/proc/29/stat", O_RDONLY) = 6
+17:35:11.261116 read(6, "29 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 152
+17:35:11.261143 close(6)                = 0
+17:35:11.261168 open("/proc/29/status", O_RDONLY) = 6
+17:35:11.261194 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.261228 close(6)                = 0
+17:35:11.261252 stat("/proc/30", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.261280 open("/proc/30/stat", O_RDONLY) = 6
+17:35:11.261305 read(6, "30 (kblockd) S 2 0 0 0 -1 692388"..., 1024) = 153
+17:35:11.261332 close(6)                = 0
+17:35:11.261358 open("/proc/30/status", O_RDONLY) = 6
+17:35:11.261383 read(6, "Name:\tkblockd\nUmask:\t0000\nState:"..., 1024) = 614
+17:35:11.261417 close(6)                = 0
+17:35:11.261441 stat("/proc/31", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.261468 open("/proc/31/stat", O_RDONLY) = 6
+17:35:11.261494 read(6, "31 (ata_sff) S 2 0 0 0 -1 692388"..., 1024) = 153
+17:35:11.261521 close(6)                = 0
+17:35:11.261546 open("/proc/31/status", O_RDONLY) = 6
+17:35:11.261576 read(6, "Name:\tata_sff\nUmask:\t0000\nState:"..., 1024) = 614
+17:35:11.261610 close(6)                = 0
+17:35:11.261633 stat("/proc/32", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.261661 open("/proc/32/stat", O_RDONLY) = 6
+17:35:11.261687 read(6, "32 (md) S 2 0 0 0 -1 69238880 0 "..., 1024) = 148
+17:35:11.261714 close(6)                = 0
+17:35:11.261739 open("/proc/32/status", O_RDONLY) = 6
+17:35:11.261765 read(6, "Name:\tmd\nUmask:\t0000\nState:\tS (s"..., 1024) = 609
+17:35:11.261799 close(6)                = 0
+17:35:11.261823 stat("/proc/33", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.261851 open("/proc/33/stat", O_RDONLY) = 6
+17:35:11.261876 read(6, "33 (devfreq_wq) S 2 0 0 0 -1 692"..., 1024) = 156
+17:35:11.261903 close(6)                = 0
+17:35:11.261928 open("/proc/33/status", O_RDONLY) = 6
+17:35:11.261954 read(6, "Name:\tdevfreq_wq\nUmask:\t0000\nSta"..., 1024) = 617
+17:35:11.261988 close(6)                = 0
+17:35:11.262011 stat("/proc/34", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262039 open("/proc/34/stat", O_RDONLY) = 6
+17:35:11.262065 read(6, "34 (watchdogd) S 2 0 0 0 -1 6923"..., 1024) = 155
+17:35:11.262092 close(6)                = 0
+17:35:11.262117 open("/proc/34/status", O_RDONLY) = 6
+17:35:11.262143 read(6, "Name:\twatchdogd\nUmask:\t0000\nStat"..., 1024) = 616
+17:35:11.262177 close(6)                = 0
+17:35:11.262200 stat("/proc/38", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262228 open("/proc/38/stat", O_RDONLY) = 6
+17:35:11.262254 read(6, "38 (kswapd0) S 2 0 0 0 -1 107500"..., 1024) = 153
+17:35:11.262281 close(6)                = 0
+17:35:11.262306 open("/proc/38/status", O_RDONLY) = 6
+17:35:11.262332 read(6, "Name:\tkswapd0\nUmask:\t0000\nState:"..., 1024) = 614
+17:35:11.262366 close(6)                = 0
+17:35:11.262389 stat("/proc/39", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262417 open("/proc/39/stat", O_RDONLY) = 6
+17:35:11.262444 read(6, "39 (vmstat) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.262471 close(6)                = 0
+17:35:11.262496 open("/proc/39/status", O_RDONLY) = 6
+17:35:11.262522 read(6, "Name:\tvmstat\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.262556 close(6)                = 0
+17:35:11.262579 stat("/proc/40", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262607 open("/proc/40/stat", O_RDONLY) = 6
+17:35:11.262633 read(6, "40 (ecryptfs-kthrea) S 2 0 0 0 -"..., 1024) = 160
+17:35:11.262660 close(6)                = 0
+17:35:11.262685 open("/proc/40/status", O_RDONLY) = 6
+17:35:11.262711 read(6, "Name:\tecryptfs-kthrea\nUmask:\t000"..., 1024) = 622
+17:35:11.262745 close(6)                = 0
+17:35:11.262768 stat("/proc/79", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262797 open("/proc/79/stat", O_RDONLY) = 6
+17:35:11.262822 read(6, "79 (kthrotld) S 2 0 0 0 -1 69238"..., 1024) = 155
+17:35:11.262849 close(6)                = 0
+17:35:11.262874 open("/proc/79/status", O_RDONLY) = 6
+17:35:11.262900 read(6, "Name:\tkthrotld\nUmask:\t0000\nState"..., 1024) = 615
+17:35:11.262934 close(6)                = 0
+17:35:11.262957 stat("/proc/80", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.262985 open("/proc/80/stat", O_RDONLY) = 6
+17:35:11.263011 read(6, "80 (acpi_thermal_pm) S 2 0 0 0 -"..., 1024) = 162
+17:35:11.263038 close(6)                = 0
+17:35:11.263063 open("/proc/80/status", O_RDONLY) = 6
+17:35:11.263089 read(6, "Name:\tacpi_thermal_pm\nUmask:\t000"..., 1024) = 622
+17:35:11.263123 close(6)                = 0
+17:35:11.263147 stat("/proc/81", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.263175 open("/proc/81/stat", O_RDONLY) = 6
+17:35:11.263201 read(6, "81 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.263227 close(6)                = 0
+17:35:11.263253 open("/proc/81/status", O_RDONLY) = 6
+17:35:11.263278 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.263312 close(6)                = 0
+17:35:11.263335 stat("/proc/82", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.263363 open("/proc/82/stat", O_RDONLY) = 6
+17:35:11.263392 read(6, "82 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.263418 close(6)                = 0
+17:35:11.263444 open("/proc/82/status", O_RDONLY) = 6
+17:35:11.263469 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.263503 close(6)                = 0
+17:35:11.263540 stat("/proc/83", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.263597 open("/proc/83/stat", O_RDONLY) = 6
+17:35:11.263625 read(6, "83 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.263652 close(6)                = 0
+17:35:11.263679 open("/proc/83/status", O_RDONLY) = 6
+17:35:11.263705 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.263740 close(6)                = 0
+17:35:11.263764 stat("/proc/84", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.263793 open("/proc/84/stat", O_RDONLY) = 6
+17:35:11.263819 read(6, "84 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.263845 close(6)                = 0
+17:35:11.263871 open("/proc/84/status", O_RDONLY) = 6
+17:35:11.263897 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.263942 close(6)                = 0
+17:35:11.263967 stat("/proc/85", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.263995 open("/proc/85/stat", O_RDONLY) = 6
+17:35:11.264021 read(6, "85 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264048 close(6)                = 0
+17:35:11.264074 open("/proc/85/status", O_RDONLY) = 6
+17:35:11.264099 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.264134 close(6)                = 0
+17:35:11.264158 stat("/proc/86", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.264185 open("/proc/86/stat", O_RDONLY) = 6
+17:35:11.264211 read(6, "86 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264238 close(6)                = 0
+17:35:11.264264 open("/proc/86/status", O_RDONLY) = 6
+17:35:11.264289 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.264323 close(6)                = 0
+17:35:11.264346 stat("/proc/87", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.264374 open("/proc/87/stat", O_RDONLY) = 6
+17:35:11.264400 read(6, "87 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264427 close(6)                = 0
+17:35:11.264452 open("/proc/87/status", O_RDONLY) = 6
+17:35:11.264478 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.264512 close(6)                = 0
+17:35:11.264535 stat("/proc/88", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.264564 open("/proc/88/stat", O_RDONLY) = 6
+17:35:11.264589 read(6, "88 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264616 close(6)                = 0
+17:35:11.264641 open("/proc/88/status", O_RDONLY) = 6
+17:35:11.264667 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.264700 close(6)                = 0
+17:35:11.264724 stat("/proc/89", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.264752 open("/proc/89/stat", O_RDONLY) = 6
+17:35:11.264777 read(6, "89 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264804 close(6)                = 0
+17:35:11.264830 open("/proc/89/status", O_RDONLY) = 6
+17:35:11.264855 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.264889 close(6)                = 0
+17:35:11.264913 stat("/proc/90", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.264941 open("/proc/90/stat", O_RDONLY) = 6
+17:35:11.264966 read(6, "90 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.264993 close(6)                = 0
+17:35:11.265018 open("/proc/90/status", O_RDONLY) = 6
+17:35:11.265044 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.265077 close(6)                = 0
+17:35:11.265101 stat("/proc/91", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.265129 open("/proc/91/stat", O_RDONLY) = 6
+17:35:11.265155 read(6, "91 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.265181 close(6)                = 0
+17:35:11.265207 open("/proc/91/status", O_RDONLY) = 6
+17:35:11.265233 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.265267 close(6)                = 0
+17:35:11.265293 stat("/proc/92", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.265322 open("/proc/92/stat", O_RDONLY) = 6
+17:35:11.265348 read(6, "92 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.265374 close(6)                = 0
+17:35:11.265399 open("/proc/92/status", O_RDONLY) = 6
+17:35:11.265425 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.265459 close(6)                = 0
+17:35:11.265482 stat("/proc/93", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.265510 open("/proc/93/stat", O_RDONLY) = 6
+17:35:11.265536 read(6, "93 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.265562 close(6)                = 0
+17:35:11.265588 open("/proc/93/status", O_RDONLY) = 6
+17:35:11.265613 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.265647 close(6)                = 0
+17:35:11.265671 stat("/proc/94", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.265699 open("/proc/94/stat", O_RDONLY) = 6
+17:35:11.265724 read(6, "94 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.265751 close(6)                = 0
+17:35:11.265776 open("/proc/94/status", O_RDONLY) = 6
+17:35:11.265802 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.265836 close(6)                = 0
+17:35:11.265860 stat("/proc/95", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.265888 open("/proc/95/stat", O_RDONLY) = 6
+17:35:11.265913 read(6, "95 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.265940 close(6)                = 0
+17:35:11.265965 open("/proc/95/status", O_RDONLY) = 6
+17:35:11.265991 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.266025 close(6)                = 0
+17:35:11.266048 stat("/proc/96", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.266076 open("/proc/96/stat", O_RDONLY) = 6
+17:35:11.266102 read(6, "96 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.266128 close(6)                = 0
+17:35:11.266154 open("/proc/96/status", O_RDONLY) = 6
+17:35:11.266180 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.266214 close(6)                = 0
+17:35:11.266237 stat("/proc/97", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.266265 open("/proc/97/stat", O_RDONLY) = 6
+17:35:11.266291 read(6, "97 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.266317 close(6)                = 0
+17:35:11.266343 open("/proc/97/status", O_RDONLY) = 6
+17:35:11.266368 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.266402 close(6)                = 0
+17:35:11.266425 stat("/proc/98", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.266454 open("/proc/98/stat", O_RDONLY) = 6
+17:35:11.266479 read(6, "98 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.266506 close(6)                = 0
+17:35:11.266531 open("/proc/98/status", O_RDONLY) = 6
+17:35:11.266557 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.266590 close(6)                = 0
+17:35:11.266614 stat("/proc/99", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.266642 open("/proc/99/stat", O_RDONLY) = 6
+17:35:11.266667 read(6, "99 (bioset) S 2 0 0 0 -1 6923888"..., 1024) = 153
+17:35:11.266694 close(6)                = 0
+17:35:11.266719 open("/proc/99/status", O_RDONLY) = 6
+17:35:11.266745 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 613
+17:35:11.266778 close(6)                = 0
+17:35:11.266801 stat("/proc/100", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.266829 open("/proc/100/stat", O_RDONLY) = 6
+17:35:11.266855 read(6, "100 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.266881 close(6)                = 0
+17:35:11.266907 open("/proc/100/status", O_RDONLY) = 6
+17:35:11.266933 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.266966 close(6)                = 0
+17:35:11.266990 stat("/proc/101", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267018 open("/proc/101/stat", O_RDONLY) = 6
+17:35:11.267043 read(6, "101 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.267070 close(6)                = 0
+17:35:11.267098 open("/proc/101/status", O_RDONLY) = 6
+17:35:11.267124 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.267157 close(6)                = 0
+17:35:11.267181 stat("/proc/102", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267209 open("/proc/102/stat", O_RDONLY) = 6
+17:35:11.267235 read(6, "102 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.267261 close(6)                = 0
+17:35:11.267287 open("/proc/102/status", O_RDONLY) = 6
+17:35:11.267313 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.267346 close(6)                = 0
+17:35:11.267370 stat("/proc/103", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267398 open("/proc/103/stat", O_RDONLY) = 6
+17:35:11.267425 read(6, "103 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.267451 close(6)                = 0
+17:35:11.267477 open("/proc/103/status", O_RDONLY) = 6
+17:35:11.267502 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.267536 close(6)                = 0
+17:35:11.267559 stat("/proc/104", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267587 open("/proc/104/stat", O_RDONLY) = 6
+17:35:11.267613 read(6, "104 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.267640 close(6)                = 0
+17:35:11.267665 open("/proc/104/status", O_RDONLY) = 6
+17:35:11.267691 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.267724 close(6)                = 0
+17:35:11.267748 stat("/proc/105", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267775 open("/proc/105/stat", O_RDONLY) = 6
+17:35:11.267801 read(6, "105 (scsi_eh_0) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.267827 close(6)                = 0
+17:35:11.267853 open("/proc/105/status", O_RDONLY) = 6
+17:35:11.267878 read(6, "Name:\tscsi_eh_0\nUmask:\t0000\nStat"..., 1024) = 621
+17:35:11.267912 close(6)                = 0
+17:35:11.267956 stat("/proc/106", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.267985 open("/proc/106/stat", O_RDONLY) = 6
+17:35:11.268010 read(6, "106 (scsi_tmf_0) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.268037 close(6)                = 0
+17:35:11.268063 open("/proc/106/status", O_RDONLY) = 6
+17:35:11.268088 read(6, "Name:\tscsi_tmf_0\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.268123 close(6)                = 0
+17:35:11.268146 stat("/proc/107", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.268174 open("/proc/107/stat", O_RDONLY) = 6
+17:35:11.268200 read(6, "107 (scsi_eh_1) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.268226 close(6)                = 0
+17:35:11.268251 open("/proc/107/status", O_RDONLY) = 6
+17:35:11.268277 read(6, "Name:\tscsi_eh_1\nUmask:\t0000\nStat"..., 1024) = 621
+17:35:11.268311 close(6)                = 0
+17:35:11.268335 stat("/proc/108", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.268363 open("/proc/108/stat", O_RDONLY) = 6
+17:35:11.268389 read(6, "108 (scsi_tmf_1) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.268415 close(6)                = 0
+17:35:11.268441 open("/proc/108/status", O_RDONLY) = 6
+17:35:11.268466 read(6, "Name:\tscsi_tmf_1\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.268500 close(6)                = 0
+17:35:11.268527 stat("/proc/110", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.268556 open("/proc/110/stat", O_RDONLY) = 6
+17:35:11.268583 read(6, "110 (scsi_eh_2) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.268609 close(6)                = 0
+17:35:11.268635 open("/proc/110/status", O_RDONLY) = 6
+17:35:11.268661 read(6, "Name:\tscsi_eh_2\nUmask:\t0000\nStat"..., 1024) = 621
+17:35:11.268695 close(6)                = 0
+17:35:11.268719 stat("/proc/111", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.268747 open("/proc/111/stat", O_RDONLY) = 6
+17:35:11.268772 read(6, "111 (scsi_tmf_2) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.268799 close(6)                = 0
+17:35:11.268824 open("/proc/111/status", O_RDONLY) = 6
+17:35:11.268850 read(6, "Name:\tscsi_tmf_2\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.268884 close(6)                = 0
+17:35:11.268907 stat("/proc/112", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.268942 open("/proc/112/stat", O_RDONLY) = 6
+17:35:11.268968 read(6, "112 (scsi_eh_3) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.268994 close(6)                = 0
+17:35:11.269019 open("/proc/112/status", O_RDONLY) = 6
+17:35:11.269045 read(6, "Name:\tscsi_eh_3\nUmask:\t0000\nStat"..., 1024) = 621
+17:35:11.269078 close(6)                = 0
+17:35:11.269102 stat("/proc/113", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.269130 open("/proc/113/stat", O_RDONLY) = 6
+17:35:11.269156 read(6, "113 (scsi_tmf_3) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.269183 close(6)                = 0
+17:35:11.269208 open("/proc/113/status", O_RDONLY) = 6
+17:35:11.269234 read(6, "Name:\tscsi_tmf_3\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.269267 close(6)                = 0
+17:35:11.269291 stat("/proc/116", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.269319 open("/proc/116/stat", O_RDONLY) = 6
+17:35:11.269345 read(6, "116 (scsi_eh_4) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.269371 close(6)                = 0
+17:35:11.269397 open("/proc/116/status", O_RDONLY) = 6
+17:35:11.269422 read(6, "Name:\tscsi_eh_4\nUmask:\t0000\nStat"..., 1024) = 620
+17:35:11.269456 close(6)                = 0
+17:35:11.269479 stat("/proc/117", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.269508 open("/proc/117/stat", O_RDONLY) = 6
+17:35:11.269533 read(6, "117 (scsi_tmf_4) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.269560 close(6)                = 0
+17:35:11.269585 open("/proc/117/status", O_RDONLY) = 6
+17:35:11.269611 read(6, "Name:\tscsi_tmf_4\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.269644 close(6)                = 0
+17:35:11.269668 stat("/proc/118", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.269696 open("/proc/118/stat", O_RDONLY) = 6
+17:35:11.269721 read(6, "118 (scsi_eh_5) S 2 0 0 0 -1 212"..., 1024) = 155
+17:35:11.269748 close(6)                = 0
+17:35:11.269773 open("/proc/118/status", O_RDONLY) = 6
+17:35:11.269799 read(6, "Name:\tscsi_eh_5\nUmask:\t0000\nStat"..., 1024) = 620
+17:35:11.269833 close(6)                = 0
+17:35:11.269856 stat("/proc/119", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.269884 open("/proc/119/stat", O_RDONLY) = 6
+17:35:11.269910 read(6, "119 (scsi_tmf_5) S 2 0 0 0 -1 69"..., 1024) = 158
+17:35:11.269936 close(6)                = 0
+17:35:11.269962 open("/proc/119/status", O_RDONLY) = 6
+17:35:11.269988 read(6, "Name:\tscsi_tmf_5\nUmask:\t0000\nSta"..., 1024) = 621
+17:35:11.270021 close(6)                = 0
+17:35:11.270045 stat("/proc/125", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.270073 open("/proc/125/stat", O_RDONLY) = 6
+17:35:11.270099 read(6, "125 (ipv6_addrconf) S 2 0 0 0 -1"..., 1024) = 161
+17:35:11.270125 close(6)                = 0
+17:35:11.270151 open("/proc/125/status", O_RDONLY) = 6
+17:35:11.270176 read(6, "Name:\tipv6_addrconf\nUmask:\t0000\n"..., 1024) = 624
+17:35:11.270210 close(6)                = 0
+17:35:11.270233 stat("/proc/148", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.270261 open("/proc/148/stat", O_RDONLY) = 6
+17:35:11.270287 read(6, "148 (deferwq) S 2 0 0 0 -1 69238"..., 1024) = 155
+17:35:11.270313 close(6)                = 0
+17:35:11.270339 open("/proc/148/status", O_RDONLY) = 6
+17:35:11.270364 read(6, "Name:\tdeferwq\nUmask:\t0000\nState:"..., 1024) = 618
+17:35:11.270398 close(6)                = 0
+17:35:11.270421 stat("/proc/149", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.270449 open("/proc/149/stat", O_RDONLY) = 6
+17:35:11.270475 read(6, "149 (charger_manager) S 2 0 0 0 "..., 1024) = 163
+17:35:11.270501 close(6)                = 0
+17:35:11.270527 open("/proc/149/status", O_RDONLY) = 6
+17:35:11.270553 read(6, "Name:\tcharger_manager\nUmask:\t000"..., 1024) = 626
+17:35:11.270587 close(6)                = 0
+17:35:11.270610 stat("/proc/154", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.270638 open("/proc/154/stat", O_RDONLY) = 6
+17:35:11.270664 read(6, "154 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.270691 close(6)                = 0
+17:35:11.270716 open("/proc/154/status", O_RDONLY) = 6
+17:35:11.270748 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.270782 close(6)                = 0
+17:35:11.270806 stat("/proc/155", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.270834 open("/proc/155/stat", O_RDONLY) = 6
+17:35:11.270860 read(6, "155 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.270887 close(6)                = 0
+17:35:11.270912 open("/proc/155/status", O_RDONLY) = 6
+17:35:11.270938 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.270972 close(6)                = 0
+17:35:11.270995 stat("/proc/204", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271024 open("/proc/204/stat", O_RDONLY) = 6
+17:35:11.271050 read(6, "204 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.271076 close(6)                = 0
+17:35:11.271102 open("/proc/204/status", O_RDONLY) = 6
+17:35:11.271128 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.271161 close(6)                = 0
+17:35:11.271185 stat("/proc/205", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271213 open("/proc/205/stat", O_RDONLY) = 6
+17:35:11.271239 read(6, "205 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.271266 close(6)                = 0
+17:35:11.271291 open("/proc/205/status", O_RDONLY) = 6
+17:35:11.271317 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.271351 close(6)                = 0
+17:35:11.271374 stat("/proc/206", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271402 open("/proc/206/stat", O_RDONLY) = 6
+17:35:11.271428 read(6, "206 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.271454 close(6)                = 0
+17:35:11.271480 open("/proc/206/status", O_RDONLY) = 6
+17:35:11.271505 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.271539 close(6)                = 0
+17:35:11.271563 stat("/proc/207", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271591 open("/proc/207/stat", O_RDONLY) = 6
+17:35:11.271616 read(6, "207 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.271643 close(6)                = 0
+17:35:11.271669 open("/proc/207/status", O_RDONLY) = 6
+17:35:11.271694 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.271728 close(6)                = 0
+17:35:11.271751 stat("/proc/208", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271779 open("/proc/208/stat", O_RDONLY) = 6
+17:35:11.271804 read(6, "208 (kpsmoused) S 2 0 0 0 -1 692"..., 1024) = 157
+17:35:11.271831 close(6)                = 0
+17:35:11.271857 open("/proc/208/status", O_RDONLY) = 6
+17:35:11.271882 read(6, "Name:\tkpsmoused\nUmask:\t0000\nStat"..., 1024) = 620
+17:35:11.271916 close(6)                = 0
+17:35:11.271947 stat("/proc/209", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.271976 open("/proc/209/stat", O_RDONLY) = 6
+17:35:11.272002 read(6, "209 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.272028 close(6)                = 0
+17:35:11.272054 open("/proc/209/status", O_RDONLY) = 6
+17:35:11.272079 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.272113 close(6)                = 0
+17:35:11.272137 stat("/proc/210", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.272164 open("/proc/210/stat", O_RDONLY) = 6
+17:35:11.272190 read(6, "210 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.272217 close(6)                = 0
+17:35:11.272242 open("/proc/210/status", O_RDONLY) = 6
+17:35:11.272268 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.272302 close(6)                = 0
+17:35:11.272325 stat("/proc/211", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.272354 open("/proc/211/stat", O_RDONLY) = 6
+17:35:11.272379 read(6, "211 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.272406 close(6)                = 0
+17:35:11.272431 open("/proc/211/status", O_RDONLY) = 6
+17:35:11.272457 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.272490 close(6)                = 0
+17:35:11.272514 stat("/proc/212", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.272542 open("/proc/212/stat", O_RDONLY) = 6
+17:35:11.272570 read(6, "212 (bioset) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.272596 close(6)                = 0
+17:35:11.272622 open("/proc/212/status", O_RDONLY) = 6
+17:35:11.272648 read(6, "Name:\tbioset\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.272681 close(6)                = 0
+17:35:11.272705 stat("/proc/213", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.272732 open("/proc/213/stat", O_RDONLY) = 6
+17:35:11.272758 read(6, "213 (i915/signal:0) S 2 0 0 0 -1"..., 1024) = 159
+17:35:11.272784 close(6)                = 0
+17:35:11.272810 open("/proc/213/status", O_RDONLY) = 6
+17:35:11.272836 read(6, "Name:\ti915/signal:0\nUmask:\t0000\n"..., 1024) = 624
+17:35:11.272870 close(6)                = 0
+17:35:11.272893 stat("/proc/214", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.272922 open("/proc/214/stat", O_RDONLY) = 6
+17:35:11.272947 read(6, "214 (i915/signal:2) S 2 0 0 0 -1"..., 1024) = 159
+17:35:11.272974 close(6)                = 0
+17:35:11.272999 open("/proc/214/status", O_RDONLY) = 6
+17:35:11.273025 read(6, "Name:\ti915/signal:2\nUmask:\t0000\n"..., 1024) = 624
+17:35:11.273307 close(6)                = 0
+17:35:11.273338 stat("/proc/238", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.273372 open("/proc/238/stat", O_RDONLY) = 6
+17:35:11.273401 read(6, "238 (kworker/0:1H) S 2 0 0 0 -1 "..., 1024) = 160
+17:35:11.273432 close(6)                = 0
+17:35:11.273461 open("/proc/238/status", O_RDONLY) = 6
+17:35:11.273490 read(6, "Name:\tkworker/0:1H\nUmask:\t0000\nS"..., 1024) = 623
+17:35:11.273527 close(6)                = 0
+17:35:11.273553 stat("/proc/240", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.273584 open("/proc/240/stat", O_RDONLY) = 6
+17:35:11.273612 read(6, "240 (jbd2/sda5-8) S 2 0 0 0 -1 2"..., 1024) = 160
+17:35:11.273642 close(6)                = 0
+17:35:11.273670 open("/proc/240/status", O_RDONLY) = 6
+17:35:11.273703 read(6, "Name:\tjbd2/sda5-8\nUmask:\t0000\nSt"..., 1024) = 625
+17:35:11.273741 close(6)                = 0
+17:35:11.273766 stat("/proc/241", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.273796 open("/proc/241/stat", O_RDONLY) = 6
+17:35:11.273822 read(6, "241 (ext4-rsv-conver) S 2 0 0 0 "..., 1024) = 163
+17:35:11.273850 close(6)                = 0
+17:35:11.273876 open("/proc/241/status", O_RDONLY) = 6
+17:35:11.273902 read(6, "Name:\text4-rsv-conver\nUmask:\t000"..., 1024) = 626
+17:35:11.273936 close(6)                = 0
+17:35:11.273960 stat("/proc/268", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.273989 open("/proc/268/stat", O_RDONLY) = 6
+17:35:11.274014 read(6, "268 (kauditd) S 2 0 0 0 -1 20972"..., 1024) = 153
+17:35:11.274041 close(6)                = 0
+17:35:11.274067 open("/proc/268/status", O_RDONLY) = 6
+17:35:11.274092 read(6, "Name:\tkauditd\nUmask:\t0000\nState:"..., 1024) = 618
+17:35:11.274126 close(6)                = 0
+17:35:11.274150 stat("/proc/277", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.274178 open("/proc/277/stat", O_RDONLY) = 6
+17:35:11.274204 read(6, "277 (systemd-journal) S 1 277 27"..., 1024) = 180
+17:35:11.274232 close(6)                = 0
+17:35:11.274258 open("/proc/277/status", O_RDONLY) = 6
+17:35:11.274283 read(6, "Name:\tsystemd-journal\nUmask:\t002"..., 1024) = 977
+17:35:11.274320 close(6)                = 0
+17:35:11.274345 stat("/proc/294", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.274373 open("/proc/294/stat", O_RDONLY) = 6
+17:35:11.274399 read(6, "294 (rpciod) S 2 0 0 0 -1 692388"..., 1024) = 154
+17:35:11.274425 close(6)                = 0
+17:35:11.274451 open("/proc/294/status", O_RDONLY) = 6
+17:35:11.274477 read(6, "Name:\trpciod\nUmask:\t0000\nState:\t"..., 1024) = 617
+17:35:11.274511 close(6)                = 0
+17:35:11.274534 stat("/proc/295", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.274562 open("/proc/295/stat", O_RDONLY) = 6
+17:35:11.274588 read(6, "295 (xprtiod) S 2 0 0 0 -1 69238"..., 1024) = 155
+17:35:11.274615 close(6)                = 0
+17:35:11.274640 open("/proc/295/status", O_RDONLY) = 6
+17:35:11.274665 read(6, "Name:\txprtiod\nUmask:\t0000\nState:"..., 1024) = 618
+17:35:11.274703 close(6)                = 0
+17:35:11.274727 stat("/proc/297", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.274771 open("/proc/297/stat", O_RDONLY) = 6
+17:35:11.274796 read(6, "297 (kworker/1:1H) S 2 0 0 0 -1 "..., 1024) = 161
+17:35:11.274823 close(6)                = 0
+17:35:11.274849 open("/proc/297/status", O_RDONLY) = 6
+17:35:11.274874 read(6, "Name:\tkworker/1:1H\nUmask:\t0000\nS"..., 1024) = 625
+17:35:11.274908 close(6)                = 0
+17:35:11.274931 stat("/proc/302", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.274959 open("/proc/302/stat", O_RDONLY) = 6
+17:35:11.274984 read(6, "302 (systemd-udevd) S 1 302 302 "..., 1024) = 185
+17:35:11.275012 close(6)                = 0
+17:35:11.275038 open("/proc/302/status", O_RDONLY) = 6
+17:35:11.275063 read(6, "Name:\tsystemd-udevd\nUmask:\t0022\n"..., 1024) = 973
+17:35:11.275099 close(6)                = 0
+17:35:11.275123 stat("/proc/386", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.275151 open("/proc/386/stat", O_RDONLY) = 6
+17:35:11.275176 read(6, "386 (irq/34-mei_me) S 2 0 0 0 -1"..., 1024) = 162
+17:35:11.275202 close(6)                = 0
+17:35:11.275227 open("/proc/386/status", O_RDONLY) = 6
+17:35:11.275253 read(6, "Name:\tirq/34-mei_me\nUmask:\t0000\n"..., 1024) = 625
+17:35:11.275286 close(6)                = 0
+17:35:11.275309 stat("/proc/439", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.275337 open("/proc/439/stat", O_RDONLY) = 6
+17:35:11.275362 read(6, "439 (systemd-timesyn) S 1 439 43"..., 1024) = 177
+17:35:11.275390 close(6)                = 0
+17:35:11.275415 open("/proc/439/status", O_RDONLY) = 6
+17:35:11.275440 read(6, "Name:\tsystemd-timesyn\nUmask:\t002"..., 1024) = 989
+17:35:11.275477 close(6)                = 0
+17:35:11.275501 stat("/proc/757", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.275528 open("/proc/757/stat", O_RDONLY) = 6
+17:35:11.275554 read(6, "757 (whoopsie) S 1 757 757 0 -1 "..., 1024) = 173
+17:35:11.275581 close(6)                = 0
+17:35:11.275607 open("/proc/757/status", O_RDONLY) = 6
+17:35:11.275633 read(6, "Name:\twhoopsie\nUmask:\t0022\nState"..., 1024) = 986
+17:35:11.275670 close(6)                = 0
+17:35:11.275695 stat("/proc/758", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.275815 open("/proc/758/stat", O_RDONLY) = 6
+17:35:11.276610 read(6, "758 (cupsd) S 1 758 758 0 -1 419"..., 1024) = 169
+17:35:11.276652 close(6)                = 0
+17:35:11.276686 open("/proc/758/status", O_RDONLY) = 6
+17:35:11.276720 read(6, "Name:\tcupsd\nUmask:\t0022\nState:\tS"..., 1024) = 963
+17:35:11.276765 close(6)                = 0
+17:35:11.276797 stat("/proc/759", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.276833 open("/proc/759/stat", O_RDONLY) = 6
+17:35:11.276866 read(6, "759 (rsyslogd) S 1 759 759 0 -1 "..., 1024) = 179
+17:35:11.276901 close(6)                = 0
+17:35:11.276933 open("/proc/759/status", O_RDONLY) = 6
+17:35:11.276965 read(6, "Name:\trsyslogd\nUmask:\t0022\nState"..., 1024) = 987
+17:35:11.277009 close(6)                = 0
+17:35:11.277040 stat("/proc/763", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.277074 open("/proc/763/stat", O_RDONLY) = 6
+17:35:11.277106 read(6, "763 (avahi-daemon) S 1 763 763 0"..., 1024) = 177
+17:35:11.277140 close(6)                = 0
+17:35:11.277172 open("/proc/763/status", O_RDONLY) = 6
+17:35:11.277205 read(6, "Name:\tavahi-daemon\nUmask:\t0022\nS"..., 1024) = 991
+17:35:11.277248 close(6)                = 0
+17:35:11.277279 stat("/proc/769", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.277313 open("/proc/769/stat", O_RDONLY) = 6
+17:35:11.277345 read(6, "769 (accounts-daemon) S 1 769 76"..., 1024) = 184
+17:35:11.277380 close(6)                = 0
+17:35:11.277412 open("/proc/769/status", O_RDONLY) = 6
+17:35:11.277444 read(6, "Name:\taccounts-daemon\nUmask:\t002"..., 1024) = 974
+17:35:11.277487 close(6)                = 0
+17:35:11.277518 stat("/proc/772", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.277552 open("/proc/772/stat", O_RDONLY) = 6
+17:35:11.277584 read(6, "772 (ModemManager) S 1 772 772 0"..., 1024) = 177
+17:35:11.277623 close(6)                = 0
+17:35:11.277655 open("/proc/772/status", O_RDONLY) = 6
+17:35:11.277688 read(6, "Name:\tModemManager\nUmask:\t0022\nS"..., 1024) = 971
+17:35:11.277731 close(6)                = 0
+17:35:11.277762 stat("/proc/773", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.277796 open("/proc/773/stat", O_RDONLY) = 6
+17:35:11.277829 read(6, "773 (systemd-logind) S 1 773 773"..., 1024) = 171
+17:35:11.277862 close(6)                = 0
+17:35:11.277894 open("/proc/773/status", O_RDONLY) = 6
+17:35:11.277926 read(6, "Name:\tsystemd-logind\nUmask:\t0022"..., 1024) = 972
+17:35:11.277970 close(6)                = 0
+17:35:11.278001 stat("/proc/777", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.278035 open("/proc/777/stat", O_RDONLY) = 6
+17:35:11.278067 read(6, "777 (acpid) S 1 777 777 0 -1 419"..., 1024) = 167
+17:35:11.278102 close(6)                = 0
+17:35:11.278134 open("/proc/777/status", O_RDONLY) = 6
+17:35:11.278165 read(6, "Name:\tacpid\nUmask:\t0022\nState:\tS"..., 1024) = 965
+17:35:11.278208 close(6)                = 0
+17:35:11.278238 stat("/proc/780", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.278273 open("/proc/780/stat", O_RDONLY) = 6
+17:35:11.278305 read(6, "780 (dbus-daemon) S 1 780 780 0 "..., 1024) = 186
+17:35:11.278338 close(6)                = 0
+17:35:11.278371 open("/proc/780/status", O_RDONLY) = 6
+17:35:11.278403 read(6, "Name:\tdbus-daemon\nUmask:\t0022\nSt"..., 1024) = 989
+17:35:11.278446 close(6)                = 0
+17:35:11.278476 stat("/proc/836", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.278511 open("/proc/836/stat", O_RDONLY) = 6
+17:35:11.278543 read(6, "836 (avahi-daemon) S 763 763 763"..., 1024) = 170
+17:35:11.278577 close(6)                = 0
+17:35:11.278608 open("/proc/836/status", O_RDONLY) = 6
+17:35:11.278640 read(6, "Name:\tavahi-daemon\nUmask:\t0022\nS"..., 1024) = 990
+17:35:11.278683 close(6)                = 0
+17:35:11.278713 stat("/proc/841", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.278748 open("/proc/841/stat", O_RDONLY) = 6
+17:35:11.278780 read(6, "841 (cups-browsed) S 1 841 841 0"..., 1024) = 175
+17:35:11.278813 close(6)                = 0
+17:35:11.278845 open("/proc/841/status", O_RDONLY) = 6
+17:35:11.278877 read(6, "Name:\tcups-browsed\nUmask:\t0022\nS"..., 1024) = 970
+17:35:11.278920 close(6)                = 0
+17:35:11.278951 stat("/proc/842", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.278985 open("/proc/842/stat", O_RDONLY) = 6
+17:35:11.279017 read(6, "842 (NetworkManager) S 1 842 842"..., 1024) = 185
+17:35:11.279051 close(6)                = 0
+17:35:11.279083 open("/proc/842/status", O_RDONLY) = 6
+17:35:11.279116 read(6, "Name:\tNetworkManager\nUmask:\t0022"..., 1024) = 974
+17:35:11.279159 close(6)                = 0
+17:35:11.279189 stat("/proc/845", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.279223 open("/proc/845/stat", O_RDONLY) = 6
+17:35:11.279256 read(6, "845 (cron) S 1 845 845 0 -1 1077"..., 1024) = 168
+17:35:11.279289 close(6)                = 0
+17:35:11.279321 open("/proc/845/status", O_RDONLY) = 6
+17:35:11.279353 read(6, "Name:\tcron\nUmask:\t0022\nState:\tS "..., 1024) = 962
+17:35:11.279396 close(6)                = 0
+17:35:11.279426 stat("/proc/846", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.279460 open("/proc/846/stat", O_RDONLY) = 6
+17:35:11.279493 read(6, "846 (snapd) S 1 846 846 0 -1 107"..., 1024) = 185
+17:35:11.279528 close(6)                = 0
+17:35:11.279560 open("/proc/846/status", O_RDONLY) = 6
+17:35:11.279592 read(6, "Name:\tsnapd\nUmask:\t0022\nState:\tS"..., 1024) = 963
+17:35:11.279635 close(6)                = 0
+17:35:11.279666 stat("/proc/912", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.279700 open("/proc/912/stat", O_RDONLY) = 6
+17:35:11.279733 read(6, "912 (lightdm) S 1 912 912 0 -1 4"..., 1024) = 182
+17:35:11.279767 close(6)                = 0
+17:35:11.279799 open("/proc/912/status", O_RDONLY) = 6
+17:35:11.279831 read(6, "Name:\tlightdm\nUmask:\t0022\nState:"..., 1024) = 967
+17:35:11.279874 close(6)                = 0
+17:35:11.279904 stat("/proc/926", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.279941 open("/proc/926/stat", O_RDONLY) = 6
+17:35:11.279975 read(6, "926 (irqbalance) S 1 926 926 0 -"..., 1024) = 169
+17:35:11.280008 close(6)                = 0
+17:35:11.280040 open("/proc/926/status", O_RDONLY) = 6
+17:35:11.280073 read(6, "Name:\tirqbalance\nUmask:\t0022\nSta"..., 1024) = 968
+17:35:11.280115 close(6)                = 0
+17:35:11.280146 stat("/proc/927", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.280180 open("/proc/927/stat", O_RDONLY) = 6
+17:35:11.280212 read(6, "927 (nscd) S 1 927 927 0 -1 4194"..., 1024) = 170
+17:35:11.280283 close(6)                = 0
+17:35:11.280317 open("/proc/927/status", O_RDONLY) = 6
+17:35:11.280350 read(6, "Name:\tnscd\nUmask:\t0022\nState:\tS "..., 1024) = 963
+17:35:11.280393 close(6)                = 0
+17:35:11.280424 stat("/proc/940", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.280459 open("/proc/940/stat", O_RDONLY) = 6
+17:35:11.280491 read(6, "940 (polkitd) S 1 940 940 0 -1 4"..., 1024) = 168
+17:35:11.280525 close(6)                = 0
+17:35:11.280557 open("/proc/940/status", O_RDONLY) = 6
+17:35:11.280589 read(6, "Name:\tpolkitd\nUmask:\t0022\nState:"..., 1024) = 969
+17:35:11.280632 close(6)                = 0
+17:35:11.280662 stat("/proc/982", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.280697 open("/proc/982/stat", O_RDONLY) = 6
+17:35:11.280729 read(6, "982 (agetty) S 1 982 982 1025 98"..., 1024) = 163
+17:35:11.280763 close(6)                = 0
+17:35:11.280795 open("/proc/982/status", O_RDONLY) = 6
+17:35:11.280827 read(6, "Name:\tagetty\nUmask:\t0022\nState:\t"..., 1024) = 963
+17:35:11.280870 close(6)                = 0
+17:35:11.280900 stat("/proc/989", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.280934 open("/proc/989/stat", O_RDONLY) = 6
+17:35:11.280967 read(6, "989 (automount) S 1 989 989 0 -1"..., 1024) = 175
+17:35:11.281001 close(6)                = 0
+17:35:11.281033 open("/proc/989/status", O_RDONLY) = 6
+17:35:11.281065 read(6, "Name:\tautomount\nUmask:\t0022\nStat"..., 1024) = 966
+17:35:11.281108 close(6)                = 0
+17:35:11.281138 stat("/proc/1140", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.281172 open("/proc/1140/stat", O_RDONLY) = 6
+17:35:11.281204 read(6, "1140 (rtkit-daemon) S 1 1140 114"..., 1024) = 172
+17:35:11.281238 close(6)                = 0
+17:35:11.281270 open("/proc/1140/status", O_RDONLY) = 6
+17:35:11.281302 read(6, "Name:\trtkit-daemon\nUmask:\t0777\nS"..., 1024) = 993
+17:35:11.281345 close(6)                = 0
+17:35:11.281375 stat("/proc/1151", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.281410 open("/proc/1151/stat", O_RDONLY) = 6
+17:35:11.281442 read(6, "1151 (upowerd) S 1 1151 1151 0 -"..., 1024) = 169
+17:35:11.281476 close(6)                = 0
+17:35:11.281508 open("/proc/1151/status", O_RDONLY) = 6
+17:35:11.281540 read(6, "Name:\tupowerd\nUmask:\t0022\nState:"..., 1024) = 972
+17:35:11.281583 close(6)                = 0
+17:35:11.281613 stat("/proc/1183", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.281648 open("/proc/1183/stat", O_RDONLY) = 6
+17:35:11.281680 read(6, "1183 (colord) S 1 1183 1183 0 -1"..., 1024) = 176
+17:35:11.281714 close(6)                = 0
+17:35:11.281746 open("/proc/1183/status", O_RDONLY) = 6
+17:35:11.281778 read(6, "Name:\tcolord\nUmask:\t0022\nState:\t"..., 1024) = 993
+17:35:11.281821 close(6)                = 0
+17:35:11.281852 stat("/proc/1640", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.281886 open("/proc/1640/stat", O_RDONLY) = 6
+17:35:11.281918 read(6, "1640 (udisksd) S 1 1640 1640 0 -"..., 1024) = 173
+17:35:11.281952 close(6)                = 0
+17:35:11.281984 open("/proc/1640/status", O_RDONLY) = 6
+17:35:11.282016 read(6, "Name:\tudisksd\nUmask:\t0022\nState:"..., 1024) = 972
+17:35:11.282059 close(6)                = 0
+17:35:11.282090 stat("/proc/1819", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.282124 open("/proc/1819/stat", O_RDONLY) = 6
+17:35:11.282156 read(6, "1819 (dhclient) S 842 1819 842 0"..., 1024) = 173
+17:35:11.282189 close(6)                = 0
+17:35:11.282221 open("/proc/1819/status", O_RDONLY) = 6
+17:35:11.282253 read(6, "Name:\tdhclient\nUmask:\t0022\nState"..., 1024) = 973
+17:35:11.282296 close(6)                = 0
+17:35:11.282327 stat("/proc/1832", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.282361 open("/proc/1832/stat", O_RDONLY) = 6
+17:35:11.282393 read(6, "1832 (dnsmasq) S 842 1832 842 0 "..., 1024) = 173
+17:35:11.282428 close(6)                = 0
+17:35:11.282460 open("/proc/1832/status", O_RDONLY) = 6
+17:35:11.282492 read(6, "Name:\tdnsmasq\nUmask:\t0022\nState:"..., 1024) = 992
+17:35:11.282535 close(6)                = 0
+17:35:11.282566 stat("/proc/2005", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.282600 open("/proc/2005/stat", O_RDONLY) = 6
+17:35:11.282632 read(6, "2005 (Xorg) S 912 2005 2005 1031"..., 1024) = 199
+17:35:11.282665 close(6)                = 0
+17:35:11.282697 open("/proc/2005/status", O_RDONLY) = 6
+17:35:11.282729 read(6, "Name:\tXorg\nUmask:\t0022\nState:\tS "..., 1024) = 980
+17:35:11.282772 close(6)                = 0
+17:35:11.282803 stat("/proc/2062", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.282837 open("/proc/2062/stat", O_RDONLY) = 6
+17:35:11.282869 read(6, "2062 (lightdm) S 912 912 912 0 -"..., 1024) = 175
+17:35:11.282903 close(6)                = 0
+17:35:11.282935 open("/proc/2062/status", O_RDONLY) = 6
+17:35:11.282967 read(6, "Name:\tlightdm\nUmask:\t0022\nState:"..., 1024) = 976
+17:35:11.283011 close(6)                = 0
+17:35:11.283041 stat("/proc/2157", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.283076 open("/proc/2157/stat", O_RDONLY) = 6
+17:35:11.283107 read(6, "2157 (nfsiod) S 2 0 0 0 -1 69238"..., 1024) = 157
+17:35:11.283140 close(6)                = 0
+17:35:11.283171 open("/proc/2157/status", O_RDONLY) = 6
+17:35:11.283203 read(6, "Name:\tnfsiod\nUmask:\t0000\nState:\t"..., 1024) = 621
+17:35:11.283244 close(6)                = 0
+17:35:11.283273 stat("/proc/2168", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.283307 open("/proc/2168/stat", O_RDONLY) = 6
+17:35:11.283340 read(6, "2168 (nfsv4.0-svc) S 2 0 0 0 -1 "..., 1024) = 160
+17:35:11.283373 close(6)                = 0
+17:35:11.283404 open("/proc/2168/status", O_RDONLY) = 6
+17:35:11.283436 read(6, "Name:\tnfsv4.0-svc\nUmask:\t0000\nSt"..., 1024) = 626
+17:35:11.283476 close(6)                = 0
+17:35:11.283506 stat("/proc/2178", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.283540 open("/proc/2178/stat", O_RDONLY) = 6
+17:35:11.283572 read(6, "2178 (systemd) S 1 2178 2178 0 -"..., 1024) = 341
+17:35:11.283607 close(6)                = 0
+17:35:11.283640 open("/proc/2178/status", O_RDONLY) = 6
+17:35:11.283672 read(6, "Name:\tsystemd\nUmask:\t0022\nState:"..., 1024) = 1000
+17:35:11.283715 close(6)                = 0
+17:35:11.283746 stat("/proc/2179", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.283780 open("/proc/2179/stat", O_RDONLY) = 6
+17:35:11.283813 read(6, "2179 ((sd-pam)) S 2178 2178 2178"..., 1024) = 174
+17:35:11.283846 close(6)                = 0
+17:35:11.283877 open("/proc/2179/status", O_RDONLY) = 6
+17:35:11.283910 read(6, "Name:\t(sd-pam)\nUmask:\t0022\nState"..., 1024) = 1002
+17:35:11.283962 close(6)                = 0
+17:35:11.283992 stat("/proc/2184", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.284027 open("/proc/2184/stat", O_RDONLY) = 6
+17:35:11.284059 read(6, "2184 (gnome-keyring-d) S 1 2183 "..., 1024) = 181
+17:35:11.284094 close(6)                = 0
+17:35:11.284125 open("/proc/2184/status", O_RDONLY) = 6
+17:35:11.284158 read(6, "Name:\tgnome-keyring-d\nUmask:\t002"..., 1024) = 1008
+17:35:11.284201 close(6)                = 0
+17:35:11.284231 stat("/proc/2186", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.284266 open("/proc/2186/stat", O_RDONLY) = 6
+17:35:11.284298 read(6, "2186 (upstart) S 2062 2186 2186 "..., 1024) = 354
+17:35:11.284333 close(6)                = 0
+17:35:11.284366 open("/proc/2186/status", O_RDONLY) = 6
+17:35:11.284398 read(6, "Name:\tupstart\nUmask:\t0022\nState:"..., 1024) = 1008
+17:35:11.284441 close(6)                = 0
+17:35:11.284470 stat("/proc/2258", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.284505 open("/proc/2258/stat", O_RDONLY) = 6
+17:35:11.284537 read(6, "2258 (upstart-udev-br) S 2186 22"..., 1024) = 340
+17:35:11.284572 close(6)                = 0
+17:35:11.284604 open("/proc/2258/status", O_RDONLY) = 6
+17:35:11.284636 read(6, "Name:\tupstart-udev-br\nUmask:\t000"..., 1024) = 1011
+17:35:11.284685 close(6)                = 0
+17:35:11.284716 stat("/proc/2271", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.284751 open("/proc/2271/stat", O_RDONLY) = 6
+17:35:11.284784 read(6, "2271 (dbus-daemon) S 2186 2271 2"..., 1024) = 345
+17:35:11.284819 close(6)                = 0
+17:35:11.284851 open("/proc/2271/status", O_RDONLY) = 6
+17:35:11.284883 read(6, "Name:\tdbus-daemon\nUmask:\t0022\nSt"..., 1024) = 1013
+17:35:11.284926 close(6)                = 0
+17:35:11.284957 stat("/proc/2283", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.284991 open("/proc/2283/stat", O_RDONLY) = 6
+17:35:11.285024 read(6, "2283 (window-stack-br) S 2186 22"..., 1024) = 308
+17:35:11.285058 close(6)                = 0
+17:35:11.285091 open("/proc/2283/status", O_RDONLY) = 6
+17:35:11.285122 read(6, "Name:\twindow-stack-br\nUmask:\t002"..., 1024) = 1012
+17:35:11.285165 close(6)                = 0
+17:35:11.285195 stat("/proc/2319", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.285230 open("/proc/2319/stat", O_RDONLY) = 6
+17:35:11.285262 read(6, "2319 (bamfdaemon) S 2186 2319 23"..., 1024) = 308
+17:35:11.285297 close(6)                = 0
+17:35:11.285330 open("/proc/2319/status", O_RDONLY) = 6
+17:35:11.285361 read(6, "Name:\tbamfdaemon\nUmask:\t0022\nSta"..., 1024) = 1011
+17:35:11.285404 close(6)                = 0
+17:35:11.285435 stat("/proc/2331", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.285469 open("/proc/2331/stat", O_RDONLY) = 6
+17:35:11.285501 read(6, "2331 (gvfsd) S 2186 2271 2271 0 "..., 1024) = 304
+17:35:11.285536 close(6)                = 0
+17:35:11.285568 open("/proc/2331/status", O_RDONLY) = 6
+17:35:11.285600 read(6, "Name:\tgvfsd\nUmask:\t0022\nState:\tS"..., 1024) = 1002
+17:35:11.285642 close(6)                = 0
+17:35:11.285673 stat("/proc/2337", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.285707 open("/proc/2337/stat", O_RDONLY) = 6
+17:35:11.285739 read(6, "2337 (upstart-file-br) S 2186 23"..., 1024) = 344
+17:35:11.285774 close(6)                = 0
+17:35:11.285806 open("/proc/2337/status", O_RDONLY) = 6
+17:35:11.285838 read(6, "Name:\tupstart-file-br\nUmask:\t000"..., 1024) = 1011
+17:35:11.285881 close(6)                = 0
+17:35:11.285912 stat("/proc/2339", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.285946 open("/proc/2339/stat", O_RDONLY) = 6
+17:35:11.285979 read(6, "2339 (upstart-dbus-br) S 2186 23"..., 1024) = 340
+17:35:11.286014 close(6)                = 0
+17:35:11.286047 open("/proc/2339/status", O_RDONLY) = 6
+17:35:11.286079 read(6, "Name:\tupstart-dbus-br\nUmask:\t000"..., 1024) = 1013
+17:35:11.286122 close(6)                = 0
+17:35:11.286152 stat("/proc/2341", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.286186 open("/proc/2341/stat", O_RDONLY) = 6
+17:35:11.286218 read(6, "2341 (gvfsd-fuse) S 2186 2271 22"..., 1024) = 312
+17:35:11.286253 close(6)                = 0
+17:35:11.286285 open("/proc/2341/status", O_RDONLY) = 6
+17:35:11.286317 read(6, "Name:\tgvfsd-fuse\nUmask:\t0022\nSta"..., 1024) = 1004
+17:35:11.286360 close(6)                = 0
+17:35:11.286390 stat("/proc/2343", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.286424 open("/proc/2343/stat", O_RDONLY) = 6
+17:35:11.286457 read(6, "2343 (upstart-dbus-br) S 2186 23"..., 1024) = 342
+17:35:11.286491 close(6)                = 0
+17:35:11.286524 open("/proc/2343/status", O_RDONLY) = 6
+17:35:11.286556 read(6, "Name:\tupstart-dbus-br\nUmask:\t000"..., 1024) = 1013
+17:35:11.286599 close(6)                = 0
+17:35:11.286629 stat("/proc/2348", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.286664 open("/proc/2348/stat", O_RDONLY) = 6
+17:35:11.286695 read(6, "2348 (ibus-daemon) S 2186 2348 2"..., 1024) = 315
+17:35:11.286729 close(6)                = 0
+17:35:11.286761 open("/proc/2348/status", O_RDONLY) = 6
+17:35:11.286794 read(6, "Name:\tibus-daemon\nUmask:\t0022\nSt"..., 1024) = 1012
+17:35:11.286836 close(6)                = 0
+17:35:11.286867 stat("/proc/2362", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.286901 open("/proc/2362/stat", O_RDONLY) = 6
+17:35:11.286933 read(6, "2362 (ibus-dconf) S 2348 2348 23"..., 1024) = 304
+17:35:11.286968 close(6)                = 0
+17:35:11.287000 open("/proc/2362/status", O_RDONLY) = 6
+17:35:11.287032 read(6, "Name:\tibus-dconf\nUmask:\t0022\nSta"..., 1024) = 1005
+17:35:11.287075 close(6)                = 0
+17:35:11.287106 stat("/proc/2363", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.287140 open("/proc/2363/stat", O_RDONLY) = 6
+17:35:11.287172 read(6, "2363 (ibus-ui-gtk3) S 2348 2348 "..., 1024) = 310
+17:35:11.287206 close(6)                = 0
+17:35:11.287238 open("/proc/2363/status", O_RDONLY) = 6
+17:35:11.287270 read(6, "Name:\tibus-ui-gtk3\nUmask:\t0022\nS"..., 1024) = 1012
+17:35:11.287313 close(6)                = 0
+17:35:11.287344 stat("/proc/2366", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.287378 open("/proc/2366/stat", O_RDONLY) = 6
+17:35:11.287410 read(6, "2366 (ibus-x11) S 2186 2348 2348"..., 1024) = 307
+17:35:11.287445 close(6)                = 0
+17:35:11.287477 open("/proc/2366/status", O_RDONLY) = 6
+17:35:11.287509 read(6, "Name:\tibus-x11\nUmask:\t0022\nState"..., 1024) = 1005
+17:35:11.287552 close(6)                = 0
+17:35:11.287583 stat("/proc/2379", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.287617 open("/proc/2379/stat", O_RDONLY) = 6
+17:35:11.287649 read(6, "2379 (ibus-engine-sim) S 2348 23"..., 1024) = 312
+17:35:11.287683 close(6)                = 0
+17:35:11.287715 open("/proc/2379/status", O_RDONLY) = 6
+17:35:11.287747 read(6, "Name:\tibus-engine-sim\nUmask:\t002"..., 1024) = 1014
+17:35:11.287790 close(6)                = 0
+17:35:11.287820 stat("/proc/2384", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.287854 open("/proc/2384/stat", O_RDONLY) = 6
+17:35:11.287887 read(6, "2384 (gpg-agent) S 2186 2384 238"..., 1024) = 176
+17:35:11.287920 close(6)                = 0
+17:35:11.287957 open("/proc/2384/status", O_RDONLY) = 6
+17:35:11.287982 read(6, "Name:\tgpg-agent\nUmask:\t0022\nStat"..., 1024) = 1006
+17:35:11.288019 close(6)                = 0
+17:35:11.288043 stat("/proc/2394", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.288071 open("/proc/2394/stat", O_RDONLY) = 6
+17:35:11.288096 read(6, "2394 (hud-service) S 2186 2394 2"..., 1024) = 314
+17:35:11.288124 close(6)                = 0
+17:35:11.288150 open("/proc/2394/status", O_RDONLY) = 6
+17:35:11.288175 read(6, "Name:\thud-service\nUmask:\t0022\nSt"..., 1024) = 1011
+17:35:11.288212 close(6)                = 0
+17:35:11.288236 stat("/proc/2396", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.288264 open("/proc/2396/stat", O_RDONLY) = 6
+17:35:11.288289 read(6, "2396 (unity-settings-) S 2186 23"..., 1024) = 318
+17:35:11.288317 close(6)                = 0
+17:35:11.288343 open("/proc/2396/status", O_RDONLY) = 6
+17:35:11.288367 read(6, "Name:\tunity-settings-\nUmask:\t002"..., 1024) = 1014
+17:35:11.288403 close(6)                = 0
+17:35:11.288428 stat("/proc/2404", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.288455 open("/proc/2404/stat", O_RDONLY) = 6
+17:35:11.288482 read(6, "2404 (at-spi-bus-laun) S 2186 24"..., 1024) = 313
+17:35:11.288509 close(6)                = 0
+17:35:11.288535 open("/proc/2404/status", O_RDONLY) = 6
+17:35:11.288561 read(6, "Name:\tat-spi-bus-laun\nUmask:\t002"..., 1024) = 1011
+17:35:11.288598 close(6)                = 0
+17:35:11.288622 stat("/proc/2405", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.288650 open("/proc/2405/stat", O_RDONLY) = 6
+17:35:11.288676 read(6, "2405 (gnome-session-b) S 2186 24"..., 1024) = 317
+17:35:11.288704 close(6)                = 0
+17:35:11.288730 open("/proc/2405/status", O_RDONLY) = 6
+17:35:11.288755 read(6, "Name:\tgnome-session-b\nUmask:\t002"..., 1024) = 1013
+17:35:11.288791 close(6)                = 0
+17:35:11.288818 stat("/proc/2408", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.288847 open("/proc/2408/stat", O_RDONLY) = 6
+17:35:11.288872 read(6, "2408 (unity-panel-ser) S 2186 24"..., 1024) = 318
+17:35:11.288900 close(6)                = 0
+17:35:11.288926 open("/proc/2408/status", O_RDONLY) = 6
+17:35:11.288952 read(6, "Name:\tunity-panel-ser\nUmask:\t002"..., 1024) = 1016
+17:35:11.288988 close(6)                = 0
+17:35:11.289013 stat("/proc/2413", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.289040 open("/proc/2413/stat", O_RDONLY) = 6
+17:35:11.289066 read(6, "2413 (dbus-daemon) S 2404 2404 2"..., 1024) = 340
+17:35:11.289094 close(6)                = 0
+17:35:11.289120 open("/proc/2413/status", O_RDONLY) = 6
+17:35:11.289146 read(6, "Name:\tdbus-daemon\nUmask:\t0022\nSt"..., 1024) = 1009
+17:35:11.289182 close(6)                = 0
+17:35:11.289206 stat("/proc/2427", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.289234 open("/proc/2427/stat", O_RDONLY) = 6
+17:35:11.289259 read(6, "2427 (at-spi2-registr) S 2186 24"..., 1024) = 311
+17:35:11.289287 close(6)                = 0
+17:35:11.289313 open("/proc/2427/status", O_RDONLY) = 6
+17:35:11.289339 read(6, "Name:\tat-spi2-registr\nUmask:\t002"..., 1024) = 1016
+17:35:11.289375 close(6)                = 0
+17:35:11.289400 stat("/proc/2443", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.289427 open("/proc/2443/stat", O_RDONLY) = 6
+17:35:11.289453 read(6, "2443 (dconf-service) S 2186 2271"..., 1024) = 311
+17:35:11.289481 close(6)                = 0
+17:35:11.289507 open("/proc/2443/status", O_RDONLY) = 6
+17:35:11.289532 read(6, "Name:\tdconf-service\nUmask:\t0022\n"..., 1024) = 1010
+17:35:11.289568 close(6)                = 0
+17:35:11.289592 stat("/proc/2448", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.289620 open("/proc/2448/stat", O_RDONLY) = 6
+17:35:11.289645 read(6, "2448 (compiz) S 2186 2448 2448 0"..., 1024) = 317
+17:35:11.289674 close(6)                = 0
+17:35:11.289700 open("/proc/2448/status", O_RDONLY) = 6
+17:35:11.289725 read(6, "Name:\tcompiz\nUmask:\t0022\nState:\t"..., 1024) = 1009
+17:35:11.289761 close(6)                = 0
+17:35:11.289785 stat("/proc/2459", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.289813 open("/proc/2459/stat", O_RDONLY) = 6
+17:35:11.289838 read(6, "2459 (indicator-messa) S 2186 24"..., 1024) = 312
+17:35:11.289867 close(6)                = 0
+17:35:11.289893 open("/proc/2459/status", O_RDONLY) = 6
+17:35:11.289918 read(6, "Name:\tindicator-messa\nUmask:\t002"..., 1024) = 1012
+17:35:11.289954 close(6)                = 0
+17:35:11.289978 stat("/proc/2460", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290006 open("/proc/2460/stat", O_RDONLY) = 6
+17:35:11.290031 read(6, "2460 (indicator-bluet) S 2186 24"..., 1024) = 309
+17:35:11.290059 close(6)                = 0
+17:35:11.290085 open("/proc/2460/status", O_RDONLY) = 6
+17:35:11.290111 read(6, "Name:\tindicator-bluet\nUmask:\t002"..., 1024) = 1011
+17:35:11.290147 close(6)                = 0
+17:35:11.290171 stat("/proc/2465", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290199 open("/proc/2465/stat", O_RDONLY) = 6
+17:35:11.290224 read(6, "2465 (indicator-power) S 2186 24"..., 1024) = 311
+17:35:11.290252 close(6)                = 0
+17:35:11.290278 open("/proc/2465/status", O_RDONLY) = 6
+17:35:11.290303 read(6, "Name:\tindicator-power\nUmask:\t002"..., 1024) = 1011
+17:35:11.290339 close(6)                = 0
+17:35:11.290363 stat("/proc/2469", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290391 open("/proc/2469/stat", O_RDONLY) = 6
+17:35:11.290416 read(6, "2469 (indicator-datet) S 2186 24"..., 1024) = 311
+17:35:11.290444 close(6)                = 0
+17:35:11.290470 open("/proc/2469/status", O_RDONLY) = 6
+17:35:11.290496 read(6, "Name:\tindicator-datet\nUmask:\t002"..., 1024) = 1011
+17:35:11.290532 close(6)                = 0
+17:35:11.290556 stat("/proc/2471", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290584 open("/proc/2471/stat", O_RDONLY) = 6
+17:35:11.290609 read(6, "2471 (indicator-keybo) S 2186 24"..., 1024) = 315
+17:35:11.290640 close(6)                = 0
+17:35:11.290667 open("/proc/2471/status", O_RDONLY) = 6
+17:35:11.290692 read(6, "Name:\tindicator-keybo\nUmask:\t002"..., 1024) = 1013
+17:35:11.290728 close(6)                = 0
+17:35:11.290752 stat("/proc/2473", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290780 open("/proc/2473/stat", O_RDONLY) = 6
+17:35:11.290805 read(6, "2473 (indicator-sound) S 2186 24"..., 1024) = 315
+17:35:11.290833 close(6)                = 0
+17:35:11.290860 open("/proc/2473/status", O_RDONLY) = 6
+17:35:11.290885 read(6, "Name:\tindicator-sound\nUmask:\t002"..., 1024) = 1012
+17:35:11.290921 close(6)                = 0
+17:35:11.290945 stat("/proc/2474", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.290973 open("/proc/2474/stat", O_RDONLY) = 6
+17:35:11.290999 read(6, "2474 (indicator-print) S 2186 24"..., 1024) = 310
+17:35:11.291027 close(6)                = 0
+17:35:11.291053 open("/proc/2474/status", O_RDONLY) = 6
+17:35:11.291078 read(6, "Name:\tindicator-print\nUmask:\t002"..., 1024) = 1013
+17:35:11.291114 close(6)                = 0
+17:35:11.291138 stat("/proc/2476", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.291166 open("/proc/2476/stat", O_RDONLY) = 6
+17:35:11.291191 read(6, "2476 (indicator-sessi) S 2186 24"..., 1024) = 309
+17:35:11.291219 close(6)                = 0
+17:35:11.291245 open("/proc/2476/status", O_RDONLY) = 6
+17:35:11.291270 read(6, "Name:\tindicator-sessi\nUmask:\t002"..., 1024) = 1013
+17:35:11.291306 close(6)                = 0
+17:35:11.291330 stat("/proc/2477", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.291358 open("/proc/2477/stat", O_RDONLY) = 6
+17:35:11.291385 read(6, "2477 (indicator-appli) S 2186 24"..., 1024) = 310
+17:35:11.291413 close(6)                = 0
+17:35:11.291438 open("/proc/2477/status", O_RDONLY) = 6
+17:35:11.291464 read(6, "Name:\tindicator-appli\nUmask:\t002"..., 1024) = 1012
+17:35:11.291500 close(6)                = 0
+17:35:11.291524 stat("/proc/2506", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.291552 open("/proc/2506/stat", O_RDONLY) = 6
+17:35:11.291577 read(6, "2506 (evolution-sourc) S 2186 22"..., 1024) = 349
+17:35:11.291606 close(6)                = 0
+17:35:11.291632 open("/proc/2506/status", O_RDONLY) = 6
+17:35:11.291658 read(6, "Name:\tevolution-sourc\nUmask:\t002"..., 1024) = 1012
+17:35:11.291694 close(6)                = 0
+17:35:11.291718 stat("/proc/2532", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.291746 open("/proc/2532/stat", O_RDONLY) = 6
+17:35:11.291772 read(6, "2532 (pulseaudio) S 2186 2531 25"..., 1024) = 313
+17:35:11.291800 close(6)                = 0
+17:35:11.291826 open("/proc/2532/status", O_RDONLY) = 6
+17:35:11.291851 read(6, "Name:\tpulseaudio\nUmask:\t0022\nSta"..., 1024) = 1008
+17:35:11.291887 close(6)                = 0
+17:35:11.291911 stat("/proc/2535", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.291979 open("/proc/2535/stat", O_RDONLY) = 6
+17:35:11.292004 read(6, "2535 (evolution-calen) S 2186 22"..., 1024) = 351
+17:35:11.292033 close(6)                = 0
+17:35:11.292060 open("/proc/2535/status", O_RDONLY) = 6
+17:35:11.292085 read(6, "Name:\tevolution-calen\nUmask:\t002"..., 1024) = 1012
+17:35:11.292121 close(6)                = 0
+17:35:11.292146 stat("/proc/2547", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.292174 open("/proc/2547/stat", O_RDONLY) = 6
+17:35:11.292199 read(6, "2547 (evolution-calen) S 2535 22"..., 1024) = 345
+17:35:11.292227 close(6)                = 0
+17:35:11.292254 open("/proc/2547/status", O_RDONLY) = 6
+17:35:11.292279 read(6, "Name:\tevolution-calen\nUmask:\t002"..., 1024) = 1012
+17:35:11.292315 close(6)                = 0
+17:35:11.292340 stat("/proc/2569", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.292368 open("/proc/2569/stat", O_RDONLY) = 6
+17:35:11.292393 read(6, "2569 (evolution-addre) S 2186 22"..., 1024) = 348
+17:35:11.292421 close(6)                = 0
+17:35:11.292448 open("/proc/2569/status", O_RDONLY) = 6
+17:35:11.292473 read(6, "Name:\tevolution-addre\nUmask:\t002"..., 1024) = 1011
+17:35:11.292509 close(6)                = 0
+17:35:11.292536 stat("/proc/2570", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.292564 open("/proc/2570/stat", O_RDONLY) = 6
+17:35:11.292589 read(6, "2570 (evolution-calen) S 2535 22"..., 1024) = 346
+17:35:11.292617 close(6)                = 0
+17:35:11.292644 open("/proc/2570/status", O_RDONLY) = 6
+17:35:11.292669 read(6, "Name:\tevolution-calen\nUmask:\t002"..., 1024) = 1011
+17:35:11.292705 close(6)                = 0
+17:35:11.292737 stat("/proc/2577", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.292765 open("/proc/2577/stat", O_RDONLY) = 6
+17:35:11.292791 read(6, "2577 (evolution-addre) S 2569 22"..., 1024) = 344
+17:35:11.292820 close(6)                = 0
+17:35:11.292846 open("/proc/2577/status", O_RDONLY) = 6
+17:35:11.292872 read(6, "Name:\tevolution-addre\nUmask:\t002"..., 1024) = 1012
+17:35:11.292908 close(6)                = 0
+17:35:11.292933 stat("/proc/2604", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.292961 open("/proc/2604/stat", O_RDONLY) = 6
+17:35:11.292986 read(6, "2604 (nm-applet) S 2405 2405 240"..., 1024) = 305
+17:35:11.293015 close(6)                = 0
+17:35:11.293041 open("/proc/2604/status", O_RDONLY) = 6
+17:35:11.293066 read(6, "Name:\tnm-applet\nUmask:\t0022\nStat"..., 1024) = 1007
+17:35:11.293102 close(6)                = 0
+17:35:11.293126 stat("/proc/2606", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.293154 open("/proc/2606/stat", O_RDONLY) = 6
+17:35:11.293180 read(6, "2606 (unity-fallback-) S 2405 24"..., 1024) = 310
+17:35:11.293208 close(6)                = 0
+17:35:11.293234 open("/proc/2606/status", O_RDONLY) = 6
+17:35:11.293259 read(6, "Name:\tunity-fallback-\nUmask:\t002"..., 1024) = 1013
+17:35:11.293296 close(6)                = 0
+17:35:11.293320 stat("/proc/2607", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.293348 open("/proc/2607/stat", O_RDONLY) = 6
+17:35:11.293374 read(6, "2607 (nautilus) S 2405 2405 2405"..., 1024) = 314
+17:35:11.293402 close(6)                = 0
+17:35:11.293428 open("/proc/2607/status", O_RDONLY) = 6
+17:35:11.293453 read(6, "Name:\tnautilus\nUmask:\t0022\nState"..., 1024) = 1009
+17:35:11.293489 close(6)                = 0
+17:35:11.293514 stat("/proc/2608", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.293541 open("/proc/2608/stat", O_RDONLY) = 6
+17:35:11.293567 read(6, "2608 (polkit-gnome-au) S 2405 24"..., 1024) = 312
+17:35:11.293595 close(6)                = 0
+17:35:11.293622 open("/proc/2608/status", O_RDONLY) = 6
+17:35:11.293646 read(6, "Name:\tpolkit-gnome-au\nUmask:\t002"..., 1024) = 1014
+17:35:11.293683 close(6)                = 0
+17:35:11.293707 stat("/proc/2610", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.293735 open("/proc/2610/stat", O_RDONLY) = 6
+17:35:11.293760 read(6, "2610 (gnome-software) S 2405 240"..., 1024) = 322
+17:35:11.293789 close(6)                = 0
+17:35:11.293815 open("/proc/2610/status", O_RDONLY) = 6
+17:35:11.293840 read(6, "Name:\tgnome-software\nUmask:\t0022"..., 1024) = 1015
+17:35:11.293876 close(6)                = 0
+17:35:11.293900 stat("/proc/2627", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.293928 open("/proc/2627/stat", O_RDONLY) = 6
+17:35:11.293953 read(6, "2627 (gvfs-udisks2-vo) S 2186 22"..., 1024) = 308
+17:35:11.293982 close(6)                = 0
+17:35:11.294008 open("/proc/2627/status", O_RDONLY) = 6
+17:35:11.294033 read(6, "Name:\tgvfs-udisks2-vo\nUmask:\t002"..., 1024) = 1011
+17:35:11.294069 close(6)                = 0
+17:35:11.294094 stat("/proc/2639", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.294121 open("/proc/2639/stat", O_RDONLY) = 6
+17:35:11.294147 read(6, "2639 (gvfs-afc-volume) S 2186 22"..., 1024) = 309
+17:35:11.294175 close(6)                = 0
+17:35:11.294201 open("/proc/2639/status", O_RDONLY) = 6
+17:35:11.294226 read(6, "Name:\tgvfs-afc-volume\nUmask:\t002"..., 1024) = 1010
+17:35:11.294262 close(6)                = 0
+17:35:11.294287 stat("/proc/2645", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.294314 open("/proc/2645/stat", O_RDONLY) = 6
+17:35:11.294340 read(6, "2645 (gvfs-mtp-volume) S 2186 22"..., 1024) = 309
+17:35:11.294370 close(6)                = 0
+17:35:11.294396 open("/proc/2645/status", O_RDONLY) = 6
+17:35:11.294421 read(6, "Name:\tgvfs-mtp-volume\nUmask:\t002"..., 1024) = 1010
+17:35:11.294458 close(6)                = 0
+17:35:11.294482 stat("/proc/2650", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.294510 open("/proc/2650/stat", O_RDONLY) = 6
+17:35:11.294535 read(6, "2650 (gvfs-goa-volume) S 2186 22"..., 1024) = 309
+17:35:11.294564 close(6)                = 0
+17:35:11.294590 open("/proc/2650/status", O_RDONLY) = 6
+17:35:11.294615 read(6, "Name:\tgvfs-goa-volume\nUmask:\t002"..., 1024) = 1011
+17:35:11.294651 close(6)                = 0
+17:35:11.294676 stat("/proc/2656", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.294704 open("/proc/2656/stat", O_RDONLY) = 6
+17:35:11.294729 read(6, "2656 (gvfs-gphoto2-vo) S 2186 22"..., 1024) = 309
+17:35:11.294758 close(6)                = 0
+17:35:11.294784 open("/proc/2656/status", O_RDONLY) = 6
+17:35:11.294810 read(6, "Name:\tgvfs-gphoto2-vo\nUmask:\t002"..., 1024) = 1011
+17:35:11.294845 close(6)                = 0
+17:35:11.294870 stat("/proc/2684", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.294898 open("/proc/2684/stat", O_RDONLY) = 6
+17:35:11.294923 read(6, "2684 (gvfsd-trash) S 2186 2271 2"..., 1024) = 307
+17:35:11.294951 close(6)                = 0
+17:35:11.294977 open("/proc/2684/status", O_RDONLY) = 6
+17:35:11.295002 read(6, "Name:\tgvfsd-trash\nUmask:\t0022\nSt"..., 1024) = 1007
+17:35:11.295038 close(6)                = 0
+17:35:11.295062 stat("/proc/2729", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.295090 open("/proc/2729/stat", O_RDONLY) = 6
+17:35:11.295115 read(6, "2729 (gvfsd-network) S 2186 2271"..., 1024) = 310
+17:35:11.295143 close(6)                = 0
+17:35:11.295169 open("/proc/2729/status", O_RDONLY) = 6
+17:35:11.295194 read(6, "Name:\tgvfsd-network\nUmask:\t0022\n"..., 1024) = 1009
+17:35:11.295231 close(6)                = 0
+17:35:11.295255 stat("/proc/2758", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.295283 open("/proc/2758/stat", O_RDONLY) = 6
+17:35:11.295308 read(6, "2758 (gvfsd-dnssd) S 2186 2271 2"..., 1024) = 308
+17:35:11.295336 close(6)                = 0
+17:35:11.295362 open("/proc/2758/status", O_RDONLY) = 6
+17:35:11.295387 read(6, "Name:\tgvfsd-dnssd\nUmask:\t0022\nSt"..., 1024) = 1007
+17:35:11.295423 close(6)                = 0
+17:35:11.295447 stat("/proc/2763", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.295475 open("/proc/2763/stat", O_RDONLY) = 6
+17:35:11.295500 read(6, "2763 (zeitgeist-datah) S 2405 24"..., 1024) = 312
+17:35:11.295529 close(6)                = 0
+17:35:11.295554 open("/proc/2763/status", O_RDONLY) = 6
+17:35:11.295579 read(6, "Name:\tzeitgeist-datah\nUmask:\t002"..., 1024) = 1013
+17:35:11.295615 close(6)                = 0
+17:35:11.295640 stat("/proc/2770", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.295667 open("/proc/2770/stat", O_RDONLY) = 6
+17:35:11.295693 read(6, "2770 (sh) S 2186 2271 2271 0 -1 "..., 1024) = 332
+17:35:11.295720 close(6)                = 0
+17:35:11.295747 open("/proc/2770/status", O_RDONLY) = 6
+17:35:11.295772 read(6, "Name:\tsh\nUmask:\t0022\nState:\tS (s"..., 1024) = 997
+17:35:11.295808 close(6)                = 0
+17:35:11.295832 stat("/proc/2774", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.295860 open("/proc/2774/stat", O_RDONLY) = 6
+17:35:11.295885 read(6, "2774 (zeitgeist-daemo) S 2770 22"..., 1024) = 317
+17:35:11.295913 close(6)                = 0
+17:35:11.295970 open("/proc/2774/status", O_RDONLY) = 6
+17:35:11.296003 read(6, "Name:\tzeitgeist-daemo\nUmask:\t002"..., 1024) = 1013
+17:35:11.296047 close(6)                = 0
+17:35:11.296077 stat("/proc/2781", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.296112 open("/proc/2781/stat", O_RDONLY) = 6
+17:35:11.296144 read(6, "2781 (zeitgeist-fts) S 2186 2271"..., 1024) = 316
+17:35:11.296182 close(6)                = 0
+17:35:11.296215 open("/proc/2781/status", O_RDONLY) = 6
+17:35:11.296247 read(6, "Name:\tzeitgeist-fts\nUmask:\t0022\n"..., 1024) = 1013
+17:35:11.296290 close(6)                = 0
+17:35:11.296319 stat("/proc/2881", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.296353 open("/proc/2881/stat", O_RDONLY) = 6
+17:35:11.296385 read(6, "2881 (update-notifier) S 2405 24"..., 1024) = 314
+17:35:11.296420 close(6)                = 0
+17:35:11.296453 open("/proc/2881/status", O_RDONLY) = 6
+17:35:11.296485 read(6, "Name:\tupdate-notifier\nUmask:\t002"..., 1024) = 1013
+17:35:11.296528 close(6)                = 0
+17:35:11.296558 stat("/proc/2910", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.296593 open("/proc/2910/stat", O_RDONLY) = 6
+17:35:11.296625 read(6, "2910 (deja-dup-monito) S 2405 24"..., 1024) = 310
+17:35:11.296659 close(6)                = 0
+17:35:11.296692 open("/proc/2910/status", O_RDONLY) = 6
+17:35:11.296725 read(6, "Name:\tdeja-dup-monito\nUmask:\t002"..., 1024) = 1011
+17:35:11.296767 close(6)                = 0
+17:35:11.296798 stat("/proc/2937", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.296832 open("/proc/2937/stat", O_RDONLY) = 6
+17:35:11.296865 read(6, "2937 (gvfsd-metadata) S 2186 227"..., 1024) = 309
+17:35:11.296899 close(6)                = 0
+17:35:11.296931 open("/proc/2937/status", O_RDONLY) = 6
+17:35:11.296964 read(6, "Name:\tgvfsd-metadata\nUmask:\t0022"..., 1024) = 1012
+17:35:11.297006 close(6)                = 0
+17:35:11.297037 stat("/proc/2949", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.297071 open("/proc/2949/stat", O_RDONLY) = 6
+17:35:11.297104 read(6, "2949 (gedit) S 2186 2405 2405 0 "..., 1024) = 305
+17:35:11.297138 close(6)                = 0
+17:35:11.297170 open("/proc/2949/status", O_RDONLY) = 6
+17:35:11.297202 read(6, "Name:\tgedit\nUmask:\t0022\nState:\tS"..., 1024) = 1007
+17:35:11.297244 close(6)                = 0
+17:35:11.297275 stat("/proc/2968", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.297309 open("/proc/2968/stat", O_RDONLY) = 6
+17:35:11.297341 read(6, "2968 (gnome-terminal-) S 2186 22"..., 1024) = 317
+17:35:11.297375 close(6)                = 0
+17:35:11.297407 open("/proc/2968/status", O_RDONLY) = 6
+17:35:11.297439 read(6, "Name:\tgnome-terminal-\nUmask:\t002"..., 1024) = 1017
+17:35:11.297482 close(6)                = 0
+17:35:11.297512 stat("/proc/2974", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.297547 open("/proc/2974/stat", O_RDONLY) = 6
+17:35:11.297579 read(6, "2974 (bash) S 2968 2974 2974 348"..., 1024) = 329
+17:35:11.297615 close(6)                = 0
+17:35:11.297647 open("/proc/2974/status", O_RDONLY) = 6
+17:35:11.297679 read(6, "Name:\tbash\nUmask:\t0022\nState:\tS "..., 1024) = 1002
+17:35:11.297722 close(6)                = 0
+17:35:11.297760 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+17:35:11.297793 write(1, "  PID TTY          TIME CMD\n", 28) = 28
+17:35:11.297868 open("/proc/tty/drivers", O_RDONLY) = 6
+17:35:11.297910 read(6, "/dev/tty             /dev/tty   "..., 9999) = 576
+17:35:11.297964 close(6)                = 0
+17:35:11.297993 stat("/dev/pts1", 0x7ffd0bfe7d60) = -1 ENOENT (No such file or directory)
+17:35:11.298023 stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+17:35:11.298053 readlink("/proc/2974/fd/2", "/dev/pts/1", 127) = 10
+17:35:11.298084 stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+17:35:11.298124 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 6
+17:35:11.298153 fstat(6, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+17:35:11.298177 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 6, 0) = 0x7f6344220000
+17:35:11.298206 close(6)                = 0
+17:35:11.298232 futex(0x7f6343bd28c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17:35:11.298263 write(1, " 2974 pts/1    00:00:00 bash\n", 29) = 29
+17:35:11.298294 stat("/proc/3519", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.298327 open("/proc/3519/stat", O_RDONLY) = 6
+17:35:11.298354 read(6, "3519 (unity-scope-hom) S 2186 22"..., 1024) = 313
+17:35:11.298385 close(6)                = 0
+17:35:11.298413 open("/proc/3519/status", O_RDONLY) = 6
+17:35:11.298439 read(6, "Name:\tunity-scope-hom\nUmask:\t002"..., 1024) = 1014
+17:35:11.298483 close(6)                = 0
+17:35:11.298509 stat("/proc/3531", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.298537 open("/proc/3531/stat", O_RDONLY) = 6
+17:35:11.298563 read(6, "3531 (unity-files-dae) S 2186 22"..., 1024) = 315
+17:35:11.298592 close(6)                = 0
+17:35:11.298619 open("/proc/3531/status", O_RDONLY) = 6
+17:35:11.298645 read(6, "Name:\tunity-files-dae\nUmask:\t002"..., 1024) = 1014
+17:35:11.298682 close(6)                = 0
+17:35:11.298707 stat("/proc/3532", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.298735 open("/proc/3532/stat", O_RDONLY) = 6
+17:35:11.298761 read(6, "3532 (unity-scope-loa) S 2186 22"..., 1024) = 313
+17:35:11.298790 close(6)                = 0
+17:35:11.298817 open("/proc/3532/status", O_RDONLY) = 6
+17:35:11.298843 read(6, "Name:\tunity-scope-loa\nUmask:\t002"..., 1024) = 1014
+17:35:11.298880 close(6)                = 0
+17:35:11.298904 stat("/proc/3561", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.298932 open("/proc/3561/stat", O_RDONLY) = 6
+17:35:11.298959 read(6, "3561 (unity-music-dae) S 2186 22"..., 1024) = 309
+17:35:11.298987 close(6)                = 0
+17:35:11.299014 open("/proc/3561/status", O_RDONLY) = 6
+17:35:11.299040 read(6, "Name:\tunity-music-dae\nUmask:\t002"..., 1024) = 1012
+17:35:11.299077 close(6)                = 0
+17:35:11.299101 stat("/proc/3588", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.299129 open("/proc/3588/stat", O_RDONLY) = 6
+17:35:11.299155 read(6, "3588 (gnome-screensho) S 2186 22"..., 1024) = 317
+17:35:11.299183 close(6)                = 0
+17:35:11.299210 open("/proc/3588/status", O_RDONLY) = 6
+17:35:11.299235 read(6, "Name:\tgnome-screensho\nUmask:\t002"..., 1024) = 1018
+17:35:11.299272 close(6)                = 0
+17:35:11.299297 stat("/proc/3614", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.299325 open("/proc/3614/stat", O_RDONLY) = 6
+17:35:11.299350 read(6, "3614 (kworker/0:0) S 2 0 0 0 -1 "..., 1024) = 163
+17:35:11.299377 close(6)                = 0
+17:35:11.299403 open("/proc/3614/status", O_RDONLY) = 6
+17:35:11.299429 read(6, "Name:\tkworker/0:0\nUmask:\t0000\nSt"..., 1024) = 627
+17:35:11.299463 close(6)                = 0
+17:35:11.299487 stat("/proc/4197", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.299515 open("/proc/4197/stat", O_RDONLY) = 6
+17:35:11.299540 read(6, "4197 (kworker/1:0) S 2 0 0 0 -1 "..., 1024) = 162
+17:35:11.299567 close(6)                = 0
+17:35:11.299593 open("/proc/4197/status", O_RDONLY) = 6
+17:35:11.299618 read(6, "Name:\tkworker/1:0\nUmask:\t0000\nSt"..., 1024) = 627
+17:35:11.299652 close(6)                = 0
+17:35:11.299675 stat("/proc/5562", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.299703 open("/proc/5562/stat", O_RDONLY) = 6
+17:35:11.299729 read(6, "5562 (oosplash) S 2186 2448 2448"..., 1024) = 311
+17:35:11.299758 close(6)                = 0
+17:35:11.299784 open("/proc/5562/status", O_RDONLY) = 6
+17:35:11.299811 read(6, "Name:\toosplash\nUmask:\t0022\nState"..., 1024) = 1004
+17:35:11.299847 close(6)                = 0
+17:35:11.299872 stat("/proc/5583", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.299900 open("/proc/5583/stat", O_RDONLY) = 6
+17:35:11.299936 read(6, "5583 (soffice.bin) S 5562 2448 2"..., 1024) = 325
+17:35:11.299966 close(6)                = 0
+17:35:11.299993 open("/proc/5583/status", O_RDONLY) = 6
+17:35:11.300020 read(6, "Name:\tsoffice.bin\nUmask:\t0022\nSt"..., 1024) = 1011
+17:35:11.300056 close(6)                = 0
+17:35:11.300081 stat("/proc/5639", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.300109 open("/proc/5639/stat", O_RDONLY) = 6
+17:35:11.300135 read(6, "5639 (kworker/u16:0) S 2 0 0 0 -"..., 1024) = 165
+17:35:11.300162 close(6)                = 0
+17:35:11.300188 open("/proc/5639/status", O_RDONLY) = 6
+17:35:11.300213 read(6, "Name:\tkworker/u16:0\nUmask:\t0000\n"..., 1024) = 631
+17:35:11.300248 close(6)                = 0
+17:35:11.300271 stat("/proc/5757", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.300299 open("/proc/5757/stat", O_RDONLY) = 6
+17:35:11.300325 read(6, "5757 (kworker/0:1) S 2 0 0 0 -1 "..., 1024) = 162
+17:35:11.300355 close(6)                = 0
+17:35:11.300381 open("/proc/5757/status", O_RDONLY) = 6
+17:35:11.300407 read(6, "Name:\tkworker/0:1\nUmask:\t0000\nSt"..., 1024) = 627
+17:35:11.300441 close(6)                = 0
+17:35:11.300464 stat("/proc/5922", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.300492 open("/proc/5922/stat", O_RDONLY) = 6
+17:35:11.300518 read(6, "5922 (kworker/u16:1) S 2 0 0 0 -"..., 1024) = 164
+17:35:11.300544 close(6)                = 0
+17:35:11.300570 open("/proc/5922/status", O_RDONLY) = 6
+17:35:11.300596 read(6, "Name:\tkworker/u16:1\nUmask:\t0000\n"..., 1024) = 631
+17:35:11.300630 close(6)                = 0
+17:35:11.300653 stat("/proc/5975", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.300681 open("/proc/5975/stat", O_RDONLY) = 6
+17:35:11.300707 read(6, "5975 (kworker/1:2) S 2 0 0 0 -1 "..., 1024) = 162
+17:35:11.300734 close(6)                = 0
+17:35:11.300759 open("/proc/5975/status", O_RDONLY) = 6
+17:35:11.300795 read(6, "Name:\tkworker/1:2\nUmask:\t0000\nSt"..., 1024) = 627
+17:35:11.300830 close(6)                = 0
+17:35:11.300854 stat("/proc/5995", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.300882 open("/proc/5995/stat", O_RDONLY) = 6
+17:35:11.300908 read(6, "5995 (kworker/u16:2) S 2 0 0 0 -"..., 1024) = 164
+17:35:11.300935 close(6)                = 0
+17:35:11.300960 open("/proc/5995/status", O_RDONLY) = 6
+17:35:11.300986 read(6, "Name:\tkworker/u16:2\nUmask:\t0000\n"..., 1024) = 631
+17:35:11.301020 close(6)                = 0
+17:35:11.301044 stat("/proc/6037", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.301072 open("/proc/6037/stat", O_RDONLY) = 6
+17:35:11.301097 read(6, "6037 (kworker/1:1) S 2 0 0 0 -1 "..., 1024) = 162
+17:35:11.301124 close(6)                = 0
+17:35:11.301150 open("/proc/6037/status", O_RDONLY) = 6
+17:35:11.301175 read(6, "Name:\tkworker/1:1\nUmask:\t0000\nSt"..., 1024) = 626
+17:35:11.301209 close(6)                = 0
+17:35:11.301232 stat("/proc/6063", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.301260 open("/proc/6063/stat", O_RDONLY) = 6
+17:35:11.301288 read(6, "6063 (strace) S 2974 6063 2974 3"..., 1024) = 341
+17:35:11.301315 close(6)                = 0
+17:35:11.301343 open("/proc/6063/status", O_RDONLY) = 6
+17:35:11.301370 read(6, "Name:\tstrace\nUmask:\t0022\nState:\t"..., 1024) = 1004
+17:35:11.301406 close(6)                = 0
+17:35:11.301432 stat("/dev/pts1", 0x7ffd0bfe7d60) = -1 ENOENT (No such file or directory)
+17:35:11.301459 stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+17:35:11.301486 readlink("/proc/6063/fd/2", "/dev/pts/1", 127) = 10
+17:35:11.301517 stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+17:35:11.301547 write(1, " 6063 pts/1    00:00:00 strace\n", 31) = 31
+17:35:11.301600 stat("/proc/6065", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17:35:11.301632 open("/proc/6065/stat", O_RDONLY) = 6
+17:35:11.301659 read(6, "6065 (ps) R 6063 6063 2974 34817"..., 1024) = 307
+17:35:11.301687 close(6)                = 0
+17:35:11.301715 open("/proc/6065/status", O_RDONLY) = 6
+17:35:11.301743 read(6, "Name:\tps\nUmask:\t0022\nState:\tR (r"..., 1024) = 1001
+17:35:11.301780 close(6)                = 0
+17:35:11.301807 stat("/dev/pts1", 0x7ffd0bfe7d60) = -1 ENOENT (No such file or directory)
+17:35:11.301834 stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+17:35:11.301862 readlink("/proc/6065/fd/2", "/dev/pts/1", 127) = 10
+17:35:11.301892 stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+17:35:11.301922 write(1, " 6065 pts/1    00:00:00 ps\n", 27) = 27
+17:35:11.301951 getdents(5, /* 0 entries */, 32768) = 0
+17:35:11.301980 close(5)                = 0
+17:35:11.302007 close(1)                = 0
+17:35:11.302028 close(2)                = 0
+17:35:11.302089 exit_group(0)           = ?
+17:35:11.302298 +++ exited with 0 +++
